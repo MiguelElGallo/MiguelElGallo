@@ -1,6 +1,12 @@
 ## Hi, I'm Miguel Peredo Zürcher 👋
 
-Seasoned Data Platform Solutions Architect and Principal Data Engineer with 20+ years of experience designing and delivering enterprise data platforms across automotive, banking, and manufacturing sectors in Europe. I architect end-to-end solutions on Azure and Snowflake — from data ingestion and data modeling to governance and self-service analytics — while staying hands-on with Python, SQL, CI/CD (Azure DevOps & GitHub Actions), and Infrastructure as Code. I actively pioneer the use of LLMs and AI Agents (RAG, PydanticAI, Semantic Kernel, MCP) to enhance data engineering workflows and platform intelligence. Certified on Azure, Google Cloud, and AWS, with an MSc in Software & Systems Engineering and executive courses from Stanford and Harvard Business School.
+🏗️ Seasoned Data Platform Solutions Architect and Principal Data Engineer with 20+ years of experience designing and delivering enterprise data platforms across automotive, banking, and manufacturing sectors in Europe.
+
+☁️ I architect end-to-end solutions on Azure and Snowflake — from data ingestion and data modeling to governance and self-service analytics — while staying hands-on with 🐍 Python, SQL, CI/CD (Azure DevOps & GitHub Actions), and Infrastructure as Code.
+
+🤖 I actively pioneer the use of LLMs and AI Agents (RAG, PydanticAI, Semantic Kernel, MCP) to enhance data engineering workflows and platform intelligence.
+
+🎓 Certified on Azure, Snowflake, Google Cloud, with an MSc in Software & Systems Engineering and executive courses from Stanford and Harvard Business School.
 
 Here are the repositories I maintain or contribute to:
 
