@@ -12,35 +12,37 @@ Here are the repositories I maintain or contribute to:
 
 | Repository | Python libraries | Azure services | Data? | AI? |
 | :--------- | :--------------- | :------------- | :---: | :-: |
-| [iparq](https://github.com/MiguelElGallo/iparq) ⭐25 | PyArrow, Typer, Pydantic, Rich | - | ✅ | - |
-| [mpzsql](https://github.com/MiguelElGallo/mpzsql) ⭐18 | PyArrow, DuckDB, Pandas, Snowflake, psycopg2, Logfire | Azure Blob Storage | ✅ | - |
+| [iparq](https://github.com/MiguelElGallo/iparq) ⭐25 | pyarrow, typer, pydantic, rich | - | ✅ | - |
+| [mpzsql](https://github.com/MiguelElGallo/mpzsql) ⭐18 | pyarrow, duckdb, pandas, snowflake, psycopg2-binary, azure-storage-blob, azure-identity, logfire | - | ✅ | - |
 | [modelando](https://github.com/MiguelElGallo/modelando) ⭐11 | - | - | ✅ | - |
-| [api-elt](https://github.com/MiguelElGallo/api-elt) ⭐9 | dlt, DuckDB, Pydantic | - | ✅ | - |
+| [api-elt](https://github.com/MiguelElGallo/api-elt) ⭐9 | dlt, duckdb | - | ✅ | - |
 | [SynapseApacheIceBergExperiment](https://github.com/MiguelElGallo/SynapseApacheIceBergExperiment) ⭐4 | - | Azure Synapse Analytics | ✅ | - |
 | [snowflake-semantic-view-skill](https://github.com/MiguelElGallo/snowflake-semantic-view-skill) ⭐3 | - | - | ✅ | ✅ |
-| [simple-streamlit-azd](https://github.com/MiguelElGallo/simple-streamlit-azd) ⭐3 | Streamlit, Pandas, NumPy | App Service | ✅ | - |
-| [evsnow](https://github.com/MiguelElGallo/evsnow) ⭐2 | PydanticAI, Snowflake, azure-eventhub, Tenacity, Logfire | Azure Event Hubs | ✅ | ✅ |
-| [ragsql](https://github.com/MiguelElGallo/ragsql) ⭐1 | LangChain, OpenAI, Snowflake | - | ✅ | ✅ |
-| [Arrow_as_source](https://github.com/MiguelElGallo/Arrow_as_source) | PyArrow, DuckDB, Polars | - | ✅ | - |
-| [ghs](https://github.com/MiguelElGallo/ghs) | Pydantic, Typer | - | - | - |
-| [myfirstmcp-openai](https://github.com/MiguelElGallo/myfirstmcp-openai) | FastMCP | App Service | - | ✅ |
-| [CallAPIfromLLM](https://github.com/MiguelElGallo/CallAPIfromLLM) | PromptFlow | Azure OpenAI | - | ✅ |
-| [mpzsql_azinfra](https://github.com/MiguelElGallo/mpzsql_azinfra) | PyArrow, Snowflake | Azure (IaC) | ✅ | - |
+| [simple-streamlit-azd](https://github.com/MiguelElGallo/simple-streamlit-azd) ⭐3 | streamlit, pandas, numpy | Azure App Service | ✅ | - |
+| [evsnow](https://github.com/MiguelElGallo/evsnow) ⭐2 | azure-eventhub, azure-identity, pydantic-ai, snowflake-connector-python, logfire, psycopg | Azure Event Hubs | ✅ | ✅ |
+| [ragsql](https://github.com/MiguelElGallo/ragsql) ⭐1 | langchain, openai, snowflake-connector-python | - | ✅ | ✅ |
+| [Arrow_as_source](https://github.com/MiguelElGallo/Arrow_as_source) | arrow, duckdb, polars, pyarrow | - | ✅ | - |
+| [ghs](https://github.com/MiguelElGallo/ghs) | pydantic, pydantic-settings, typer | - | - | - |
+| [myfirstmcp-openai](https://github.com/MiguelElGallo/myfirstmcp-openai) | mcp, uvicorn, gunicorn | Azure App Service | - | ✅ |
+| [CallAPIfromLLM](https://github.com/MiguelElGallo/CallAPIfromLLM) | - | Azure OpenAI | - | ✅ |
+| [mpzsql_azinfra](https://github.com/MiguelElGallo/mpzsql_azinfra) | pyarrow, snowflake, adbc-driver-flightsql | Azure Container Apps, Azure Blob Storage, Azure PostgreSQL | ✅ | - |
 | [homebrew-iparq](https://github.com/MiguelElGallo/homebrew-iparq) | - | - | - | - |
-| [snowtofu](https://github.com/MiguelElGallo/snowtofu) | - | Azure Storage (state) | ✅ | - |
-| [simple-fastapi-snow-azd](https://github.com/MiguelElGallo/simple-fastapi-snow-azd) | FastAPI, SQLAlchemy, Snowflake | Azure Functions | ✅ | - |
-| [embeddindataengineering](https://github.com/MiguelElGallo/embeddindataengineering) | Pandas, OpenAI | Azure OpenAI, Fabric | ✅ | ✅ |
+| [snowtofu](https://github.com/MiguelElGallo/snowtofu) | - | Azure Storage | ✅ | - |
+| [simple-fastapi-snow-azd](https://github.com/MiguelElGallo/simple-fastapi-snow-azd) | fastapi, sqlalchemy-pagination-fastapi, snowflake-sqlalchemy, fastapi-filter | Azure Functions | ✅ | - |
+| [embeddindataengineering](https://github.com/MiguelElGallo/embeddindataengineering) | - | Azure OpenAI, Microsoft Fabric | ✅ | ✅ |
 | [mycv](https://github.com/MiguelElGallo/mycv) | - | - | - | - |
-| [Modelando2025](https://github.com/MiguelElGallo/Modelando2025) | MkDocs Material | - | ✅ | - |
-| [dltHub-teesting](https://github.com/MiguelElGallo/dltHub-teesting) | dlt, DuckDB, Pydantic | - | ✅ | - |
-| [ChartToMD](https://github.com/MiguelElGallo/ChartToMD) | Azure Identity, Typer | Azure OpenAI | - | ✅ |
-| [SnowCLI](https://github.com/MiguelElGallo/SnowCLI) | Snowflake CLI | - | ✅ | - |
+| [Modelando2025](https://github.com/MiguelElGallo/Modelando2025) | mkdocs-material, mkdocs-git-revision-date-localized-plugin | - | ✅ | - |
+| [dltHub-teesting](https://github.com/MiguelElGallo/dltHub-teesting) | dlt, duckdb, pydantic | - | ✅ | - |
+| [ChartToMD](https://github.com/MiguelElGallo/ChartToMD) | azure-identity, pydantic, typer | - | - | ✅ |
+| [SnowCLI](https://github.com/MiguelElGallo/SnowCLI) | - | - | ✅ | - |
 | [rag-graph](https://github.com/MiguelElGallo/rag-graph) | - | - | - | ✅ |
-| [opeanai-rag-test](https://github.com/MiguelElGallo/opeanai-rag-test) | OpenAI | - | - | ✅ |
-| [ragvectordb](https://github.com/MiguelElGallo/ragvectordb) | OpenAI | Azure AI Search | ✅ | ✅ |
-| [azdcodespaces](https://github.com/MiguelElGallo/azdcodespaces) | - | Azure (AZD) | - | - |
-| [azureaisearch](https://github.com/MiguelElGallo/azureaisearch) | - | Azure OpenAI, Azure AI Search | - | ✅ |
+| [opeanai-rag-test](https://github.com/MiguelElGallo/opeanai-rag-test) | openai | - | - | ✅ |
+| [ragvectordb](https://github.com/MiguelElGallo/ragvectordb) | - | Azure AI Search, Azure OpenAI | ✅ | ✅ |
+| [azdcodespaces](https://github.com/MiguelElGallo/azdcodespaces) | - | Azure Developer CLI | - | - |
+| [azureaisearch](https://github.com/MiguelElGallo/azureaisearch) | - | Azure AI Search, Azure OpenAI | - | ✅ |
 | [azopenai_adx](https://github.com/MiguelElGallo/azopenai_adx) | - | Azure Data Explorer, Azure OpenAI | ✅ | ✅ |
-| [semker](https://github.com/MiguelElGallo/semker) | Semantic Kernel | - | - | ✅ |
-| [dvsat](https://github.com/MiguelElGallo/dvsat) | dbt, automate-dv | - | ✅ | - |
+| [semker](https://github.com/MiguelElGallo/semker) | semantic-kernel | - | - | ✅ |
+| [dvsat](https://github.com/MiguelElGallo/dvsat) | - | - | ✅ | - |
 | [JoinOrAssociation](https://github.com/MiguelElGallo/JoinOrAssociation) | - | - | ✅ | - |
+
+_Last updated: 2026-02-07_
