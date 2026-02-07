@@ -157,10 +157,55 @@ async def main() -> None:
     done = asyncio.Event()
 
     def handle_event(event):
-        if event.type == SessionEventType.ASSISTANT_MESSAGE_DELTA:
-            sys.stdout.write(event.data.delta_content or "")
+        t = event.type
+        d = event.data
+
+        if t == SessionEventType.SESSION_START:
+            print("📡 Session started")
+        elif t == SessionEventType.ASSISTANT_TURN_START:
+            print("\n🤖 Agent thinking...")
+        elif t == SessionEventType.ASSISTANT_MESSAGE_DELTA:
+            sys.stdout.write(d.delta_content or "")
             sys.stdout.flush()
-        elif event.type == SessionEventType.SESSION_IDLE:
+        elif t == SessionEventType.ASSISTANT_MESSAGE:
+            print()  # newline after streamed message
+        elif t == SessionEventType.TOOL_EXECUTION_START:
+            tool = d.tool_name or "unknown"
+            args = d.arguments or ""
+            # Truncate long args for readability
+            args_str = str(args)
+            if len(args_str) > 200:
+                args_str = args_str[:200] + "..."
+            print(f"\n🔧 Calling tool: {tool}({args_str})")
+        elif t == SessionEventType.TOOL_EXECUTION_COMPLETE:
+            tool = d.tool_name or "unknown"
+            result = str(d.result or "")
+            if len(result) > 300:
+                result = result[:300] + "..."
+            print(f"  ✅ {tool} → {result}")
+        elif t == SessionEventType.TOOL_EXECUTION_PROGRESS:
+            msg = d.progress_message or ""
+            if msg:
+                print(f"  ⏳ {msg}")
+        elif t == SessionEventType.ASSISTANT_TURN_END:
+            print("🏁 Agent turn complete")
+        elif t == SessionEventType.ASSISTANT_USAGE:
+            in_tok = getattr(d, "input_tokens", None)
+            out_tok = getattr(d, "output_tokens", None)
+            model = getattr(d, "model", None)
+            parts = []
+            if model:
+                parts.append(f"model={model}")
+            if in_tok is not None:
+                parts.append(f"in={in_tok}")
+            if out_tok is not None:
+                parts.append(f"out={out_tok}")
+            if parts:
+                print(f"  📊 Usage: {', '.join(parts)}")
+        elif t == SessionEventType.SESSION_ERROR:
+            err = getattr(d, "error", None) or d
+            print(f"\n❌ Error: {err}")
+        elif t == SessionEventType.SESSION_IDLE:
             print()
             done.set()
 
