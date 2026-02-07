@@ -13,7 +13,7 @@ Here are the repositories I maintain or contribute to:
 | Repository | Python libraries | Azure services | Data? | AI? |
 | :--------- | :--------------- | :------------- | :---: | :-: |
 | [iparq](https://github.com/MiguelElGallo/iparq) ⭐25 | pyarrow, typer, pydantic, rich | - | ✅ | - |
-| [mpzsql](https://github.com/MiguelElGallo/mpzsql) ⭐18 | pyarrow, duckdb, pandas, snowflake, psycopg2-binary, azure-storage-blob, azure-identity, logfire | - | ✅ | - |
+| [mpzsql](https://github.com/MiguelElGallo/mpzsql) ⭐18 | pyarrow, duckdb, pandas, snowflake, psycopg2-binary, azure-storage-blob, azure-identity, logfire | Azure Storage, Azure Identity | ✅ | - |
 | [modelando](https://github.com/MiguelElGallo/modelando) ⭐11 | - | - | ✅ | - |
 | [api-elt](https://github.com/MiguelElGallo/api-elt) ⭐9 | dlt, duckdb | - | ✅ | - |
 | [SynapseApacheIceBergExperiment](https://github.com/MiguelElGallo/SynapseApacheIceBergExperiment) ⭐4 | - | Azure Synapse Analytics | ✅ | - |
@@ -33,7 +33,7 @@ Here are the repositories I maintain or contribute to:
 | [mycv](https://github.com/MiguelElGallo/mycv) | - | - | - | - |
 | [Modelando2025](https://github.com/MiguelElGallo/Modelando2025) | mkdocs-material, mkdocs-git-revision-date-localized-plugin | - | ✅ | - |
 | [dltHub-teesting](https://github.com/MiguelElGallo/dltHub-teesting) | dlt, duckdb, pydantic | - | ✅ | - |
-| [ChartToMD](https://github.com/MiguelElGallo/ChartToMD) | azure-identity, pydantic, typer | - | - | ✅ |
+| [ChartToMD](https://github.com/MiguelElGallo/ChartToMD) | azure-identity, pydantic, typer | Azure Identity | - | ✅ |
 | [SnowCLI](https://github.com/MiguelElGallo/SnowCLI) | - | - | ✅ | - |
 | [rag-graph](https://github.com/MiguelElGallo/rag-graph) | - | - | - | ✅ |
 | [opeanai-rag-test](https://github.com/MiguelElGallo/opeanai-rag-test) | openai | - | - | ✅ |
