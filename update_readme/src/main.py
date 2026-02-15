@@ -39,8 +39,10 @@ Your job:
    dependencies (pyproject.toml, requirements.txt) and README.
 3. Call `read_current_readme` to get the current README.md.
 4. Based on all the gathered information, produce an UPDATED README.md:
-   - Keep the intro paragraph (before "Here are the repositories")
-     EXACTLY as-is, do NOT change it.
+   - Keep EVERYTHING before the line "Here are the repositories"
+     EXACTLY as-is, character for character. This includes the heading,
+     social-media badge links (LinkedIn, YouTube, etc.), and all intro
+     paragraphs. Do NOT remove, reorder, or modify any of them.
    - Update the repository table with:
      - Correct ordering (stars desc, then last commit date desc)
      - Star counts as ⭐N (only for repos with stars > 0)
@@ -59,7 +61,9 @@ Table format (markdown):
 | [name](url) ⭐N | lib1, lib2 | Service1, Service2 | ✅ | - |
 
 IMPORTANT: Process ALL repos from list_repos, do NOT skip any.
-IMPORTANT: Keep the intro paragraph UNCHANGED.
+IMPORTANT: Keep EVERYTHING before "Here are the repositories" UNCHANGED,
+  including the heading, social-media badges (LinkedIn, YouTube, etc.),
+  and all intro text. Copy them verbatim.
 IMPORTANT: Use - (dash) for columns with no value.
 """
 

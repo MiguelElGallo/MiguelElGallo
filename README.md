@@ -1,5 +1,8 @@
 ## Hi, I'm Miguel Peredo Zürcher 👋
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miguelperedozurcher/)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@MiguelPeredoZ%C3%BCrcher)
+
 🏗️ Seasoned Data Platform Solutions Architect and Principal Data Engineer with 20+ years of experience designing and delivering enterprise data platforms across automotive, banking, and manufacturing sectors in Europe.
 
 ☁️ I architect end-to-end solutions on Azure and Snowflake — from data ingestion and data modeling to governance and self-service analytics — while staying hands-on with 🐍 Python, SQL, CI/CD (Azure DevOps & GitHub Actions), and Infrastructure as Code.
