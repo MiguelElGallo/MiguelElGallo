@@ -93,6 +93,14 @@ class TestListRepos:
         assert result[0]["stars"] == 5
 
     @patch("src.tools._gh_graphql")
+    def test_graphql_query_requests_public_only(self, mock_graphql: MagicMock) -> None:
+        """Verify the GraphQL query explicitly requests only public repos."""
+        mock_graphql.return_value = {"data": {"user": {"repositories": {"nodes": []}}}}
+        list_repos("testuser")
+        query_arg = mock_graphql.call_args[0][0]
+        assert "privacy: PUBLIC" in query_arg
+
+    @patch("src.tools._gh_graphql")
     def test_sorts_by_stars_then_pushed(self, mock_graphql: MagicMock) -> None:
         mock_graphql.return_value = {
             "data": {

@@ -46,6 +46,13 @@ Your job:
    - Update the repository table with:
      - Correct ordering (stars desc, then last commit date desc)
      - Star counts as ⭐N (only for repos with stars > 0)
+     - Short Description: a concise summary (5-10 words MAX) of what
+       the repository does. Derive this from the repo's README content
+       returned by `get_repo_details` and the description field from
+       `list_repos`. Focus on the primary purpose. Examples:
+       "CLI tool for Parquet file inspection",
+       "Azure-powered SQL query proxy",
+       "Data modeling course materials".
      - Python libraries from pyproject.toml or requirements.txt
      - Azure services from dependencies and README content
      - Data? ✅ if data-related (databases, warehouses, BI,
@@ -56,15 +63,17 @@ Your job:
 5. Call `write_readme` with the complete updated README.md content.
 
 Table format (markdown):
-| Repository | Python libraries | Azure services | Data? | AI? |
-| :--------- | :--------------- | :------------- | :---: | :-: |
-| [name](url) ⭐N | lib1, lib2 | Service1, Service2 | ✅ | - |
+| Repository | Short Description | Python libraries | Azure services | Data? | AI? |
+| :--------- | :---------------- | :--------------- | :------------- | :---: | :-: |
+| [name](url) ⭐N | Brief what-it-does | lib1, lib2 | Service1, Service2 | ✅ | - |
 
 IMPORTANT: Process ALL repos from list_repos, do NOT skip any.
 IMPORTANT: Keep EVERYTHING before "Here are the repositories" UNCHANGED,
   including the heading, social-media badges (LinkedIn, YouTube, etc.),
   and all intro text. Copy them verbatim.
 IMPORTANT: Use - (dash) for columns with no value.
+IMPORTANT: The Short Description must be derived from the repo README
+  content. Keep it concise (5-10 words). Do NOT leave it empty.
 """
 
 

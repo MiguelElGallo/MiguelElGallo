@@ -37,6 +37,7 @@ def list_repos(owner: str = "MiguelElGallo") -> list[dict]:
         f'{{ user(login: "{owner}") {{'
         " repositories("
         "first: 100, ownerAffiliations: OWNER,"
+        " privacy: PUBLIC,"
         " orderBy: {field: STARGAZERS, direction: DESC}"
         ") { nodes {"
         " name url stargazerCount description pushedAt"
@@ -50,18 +51,9 @@ def list_repos(owner: str = "MiguelElGallo") -> list[dict]:
     # Filter: public, non-fork, exclude profile repo
     filtered = [r for r in repos if not r["isPrivate"] and not r["isFork"] and r["name"] != owner]
 
-    # Sort: stars desc, then pushedAt desc
-    filtered.sort(key=lambda r: (-r["stargazerCount"], r["pushedAt"]), reverse=False)
-    # For same stars, we want most recent first (pushedAt is ISO string, reverse sort)
-    filtered.sort(key=lambda r: (-r["stargazerCount"],))
-    # Stable sort within same star count by pushedAt desc
-    from itertools import groupby
-
-    result = []
-    for _, group in groupby(filtered, key=lambda r: r["stargazerCount"]):
-        grp = list(group)
-        grp.sort(key=lambda r: r["pushedAt"], reverse=True)
-        result.extend(grp)
+    # Sort: stars desc, then pushedAt desc (leveraging Python's stable sort)
+    filtered.sort(key=lambda r: r["pushedAt"], reverse=True)
+    filtered.sort(key=lambda r: -r["stargazerCount"])
 
     return [
         {
@@ -72,7 +64,7 @@ def list_repos(owner: str = "MiguelElGallo") -> list[dict]:
             "pushed_at": r["pushedAt"],
             "language": r["primaryLanguage"]["name"] if r["primaryLanguage"] else "None",
         }
-        for r in result
+        for r in filtered
     ]
 
 
