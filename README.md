@@ -15,20 +15,22 @@ Here are the repositories I maintain or contribute to:
 
 | Repository | Short Description | Python libraries | Azure services | Data? | AI? |
 | :--------- | :---------------- | :--------------- | :------------- | :---: | :-: |
-| [mpzsql](https://github.com/MiguelElGallo/mpzsql) ⭐26 | Flight SQL DuckDB lakehouse | azure-identity, duckdb, grpcio, pyarrow, pyjwt | Container Apps, Blob Storage | ✅ | - |
+| [mpzsql](https://github.com/MiguelElGallo/mpzsql) ⭐26 | Arrow Flight SQL DuckDB lakehouse | azure-identity, duckdb, grpcio, pyarrow, pyjwt | Container Apps, Blob Storage | ✅ | - |
 | [iparq](https://github.com/MiguelElGallo/iparq) ⭐25 | Parquet file inspection CLI | pyarrow, typer, pydantic, rich | - | ✅ | - |
 | [modelando](https://github.com/MiguelElGallo/modelando) ⭐11 | Data modeling education materials | - | - | ✅ | - |
-| [api-elt](https://github.com/MiguelElGallo/api-elt) ⭐9 | API to database ELT | dlt, python-dotenv | - | ✅ | - |
-| [snowflake-semantic-view-skill](https://github.com/MiguelElGallo/snowflake-semantic-view-skill) ⭐4 | Snowflake semantic view generation | - | - | ✅ | ✅ |
+| [api-elt](https://github.com/MiguelElGallo/api-elt) ⭐9 | API to database ELT pipeline | dlt, python-dotenv | - | ✅ | - |
+| [snowflake-semantic-view-skill](https://github.com/MiguelElGallo/snowflake-semantic-view-skill) ⭐4 | Snowflake semantic view generator | - | - | ✅ | ✅ |
 | [SynapseApacheIceBergExperiment](https://github.com/MiguelElGallo/SynapseApacheIceBergExperiment) ⭐4 | Apache Iceberg Synapse experiments | - | Synapse Analytics | ✅ | - |
 | [evsnow](https://github.com/MiguelElGallo/evsnow) ⭐3 | EventHub to Snowflake streaming | azure-eventhub, azure-identity, snowflake-connector-python, pydantic-ai | Event Hubs | ✅ | ✅ |
-| [simple-streamlit-azd](https://github.com/MiguelElGallo/simple-streamlit-azd) ⭐3 | Streamlit Azure deployment template | pandas, numpy, streamlit | App Service | ✅ | - |
-| [FastAPI-in-Snowflake](https://github.com/MiguelElGallo/FastAPI-in-Snowflake) ⭐2 | FastAPI in Snowflake containers | fastapi, snowflake-connector-python, uvicorn | - | ✅ | - |
+| [simple-streamlit-azd](https://github.com/MiguelElGallo/simple-streamlit-azd) ⭐3 | Streamlit Azure App Service template | pandas, numpy, streamlit | App Service | ✅ | - |
+| [FastAPI-in-Snowflake](https://github.com/MiguelElGallo/FastAPI-in-Snowflake) ⭐3 | FastAPI in Snowflake containers | fastapi, snowflake-connector-python, uvicorn | - | ✅ | - |
 | [snapshottest](https://github.com/MiguelElGallo/snapshottest) ⭐1 | Inline snapshot testing demo | httpx, rich, typer | - | - | - |
 | [ragsql](https://github.com/MiguelElGallo/ragsql) ⭐1 | RAG for SQL queries | langchain, openai, snowflake-connector-python | - | ✅ | ✅ |
+| [RioArriba](https://github.com/MiguelElGallo/RioArriba) | River shooter arcade game | - | - | - | - |
+| [ir-support-site](https://github.com/MiguelElGallo/ir-support-site) | iOS app support pages | - | - | - | - |
+| [codemode](https://github.com/MiguelElGallo/codemode) | MCP vs CodeMode comparison | mcp, pydantic | - | - | ✅ |
 | [fastapi-free](https://github.com/MiguelElGallo/fastapi-free) | FastAPI free-threading benchmark | fastapi, uvicorn, prometheus-client | - | - | - |
 | [snow_iceberg_snowstorage](https://github.com/MiguelElGallo/snow_iceberg_snowstorage) | Snowflake-managed Iceberg demo | - | - | ✅ | - |
-| [ir-support-site](https://github.com/MiguelElGallo/ir-support-site) | iOS app support pages | - | - | - | - |
 | [snowmcpaz](https://github.com/MiguelElGallo/snowmcpaz) | Snowflake MCP Azure extension | - | - | ✅ | ✅ |
 | [jwtaztoken](https://github.com/MiguelElGallo/jwtaztoken) | Azure JWT token explorer | cryptography, httpx, pyjwt, rich, typer | - | - | - |
 | [dlthubarrow](https://github.com/MiguelElGallo/dlthubarrow) | DLT Arrow performance testing | dlt, pyarrow, snowflake-connector-python | Container Apps, Key Vault | ✅ | - |
@@ -56,6 +58,6 @@ Here are the repositories I maintain or contribute to:
 | [azopenai_adx](https://github.com/MiguelElGallo/azopenai_adx) | ADX embeddings storage | - | Data Explorer | ✅ | ✅ |
 | [semker](https://github.com/MiguelElGallo/semker) | Semantic Kernel Python demo | semantic-kernel | - | - | ✅ |
 | [dvsat](https://github.com/MiguelElGallo/dvsat) | Data Vault satellite patterns | - | - | ✅ | - |
-| [JoinOrAssociation](https://github.com/MiguelElGallo/JoinOrAssociation) | BI tools fan trap | - | - | ✅ | - |
+| [JoinOrAssociation](https://github.com/MiguelElGallo/JoinOrAssociation) | BI tools fan trap demo | - | - | ✅ | - |
 
-_Last updated: 2026-05-03_
+_Last updated: 2026-05-10_
