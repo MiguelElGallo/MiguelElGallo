@@ -19,17 +19,19 @@ Here are the repositories I maintain or contribute to:
 | [iparq](https://github.com/MiguelElGallo/iparq) ⭐25 | Parquet file inspection CLI | pyarrow, typer, pydantic, rich | - | ✅ | - |
 | [modelando](https://github.com/MiguelElGallo/modelando) ⭐11 | Data modeling education materials | - | - | ✅ | - |
 | [api-elt](https://github.com/MiguelElGallo/api-elt) ⭐9 | API to database ELT pipeline | dlt, python-dotenv | - | ✅ | - |
-| [snowflake-semantic-view-skill](https://github.com/MiguelElGallo/snowflake-semantic-view-skill) ⭐4 | Snowflake semantic view generator | - | - | ✅ | ✅ |
+| [snowflake-semantic-view-skill](https://github.com/MiguelElGallo/snowflake-semantic-view-skill) ⭐5 | Snowflake semantic view generator | - | - | ✅ | ✅ |
+| [FastAPI-in-Snowflake](https://github.com/MiguelElGallo/FastAPI-in-Snowflake) ⭐4 | FastAPI in Snowflake containers | fastapi, snowflake-connector-python, uvicorn, python-jose, passlib, bcrypt | - | ✅ | - |
 | [SynapseApacheIceBergExperiment](https://github.com/MiguelElGallo/SynapseApacheIceBergExperiment) ⭐4 | Apache Iceberg Synapse experiments | - | Synapse Analytics | ✅ | - |
+| [azquack](https://github.com/MiguelElGallo/azquack) ⭐3 | DuckDB Quack server on Azure | duckdb, psycopg | - | ✅ | - |
 | [evsnow](https://github.com/MiguelElGallo/evsnow) ⭐3 | EventHub to Snowflake streaming | azure-eventhub, azure-identity, snowflake-connector-python, pydantic-ai | Event Hubs | ✅ | ✅ |
 | [simple-streamlit-azd](https://github.com/MiguelElGallo/simple-streamlit-azd) ⭐3 | Streamlit Azure App Service template | pandas, numpy, streamlit | App Service | ✅ | - |
-| [FastAPI-in-Snowflake](https://github.com/MiguelElGallo/FastAPI-in-Snowflake) ⭐3 | FastAPI in Snowflake containers | fastapi, snowflake-connector-python, uvicorn | - | ✅ | - |
 | [snapshottest](https://github.com/MiguelElGallo/snapshottest) ⭐1 | Inline snapshot testing demo | httpx, rich, typer | - | - | - |
 | [ragsql](https://github.com/MiguelElGallo/ragsql) ⭐1 | RAG for SQL queries | langchain, openai, snowflake-connector-python | - | ✅ | ✅ |
+| [snowdag](https://github.com/MiguelElGallo/snowdag) | Airflow dbt Snowpark SPCS demo | - | - | ✅ | - |
+| [fastapi-free](https://github.com/MiguelElGallo/fastapi-free) | FastAPI free-threading benchmark | fastapi, uvicorn, prometheus-client | - | - | - |
 | [RioArriba](https://github.com/MiguelElGallo/RioArriba) | River shooter arcade game | - | - | - | - |
 | [ir-support-site](https://github.com/MiguelElGallo/ir-support-site) | iOS app support pages | - | - | - | - |
 | [codemode](https://github.com/MiguelElGallo/codemode) | MCP vs CodeMode comparison | mcp, pydantic | - | - | ✅ |
-| [fastapi-free](https://github.com/MiguelElGallo/fastapi-free) | FastAPI free-threading benchmark | fastapi, uvicorn, prometheus-client | - | - | - |
 | [snow_iceberg_snowstorage](https://github.com/MiguelElGallo/snow_iceberg_snowstorage) | Snowflake-managed Iceberg demo | - | - | ✅ | - |
 | [snowmcpaz](https://github.com/MiguelElGallo/snowmcpaz) | Snowflake MCP Azure extension | - | - | ✅ | ✅ |
 | [jwtaztoken](https://github.com/MiguelElGallo/jwtaztoken) | Azure JWT token explorer | cryptography, httpx, pyjwt, rich, typer | - | - | - |
@@ -60,4 +62,4 @@ Here are the repositories I maintain or contribute to:
 | [dvsat](https://github.com/MiguelElGallo/dvsat) | Data Vault satellite patterns | - | - | ✅ | - |
 | [JoinOrAssociation](https://github.com/MiguelElGallo/JoinOrAssociation) | BI tools fan trap demo | - | - | ✅ | - |
 
-_Last updated: 2026-05-10_
+_Last updated: 2026-05-14_
