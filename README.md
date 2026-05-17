@@ -19,15 +19,16 @@ Here are the repositories I maintain or contribute to:
 | [iparq](https://github.com/MiguelElGallo/iparq) ⭐25 | Parquet file inspection CLI | pyarrow, typer, pydantic, rich | - | ✅ | - |
 | [modelando](https://github.com/MiguelElGallo/modelando) ⭐11 | Data modeling education materials | - | - | ✅ | - |
 | [api-elt](https://github.com/MiguelElGallo/api-elt) ⭐9 | API to database ELT pipeline | dlt, python-dotenv | - | ✅ | - |
+| [azquack](https://github.com/MiguelElGallo/azquack) ⭐5 | DuckDB Quack server on Azure | duckdb, psycopg | Blob Storage | ✅ | - |
 | [snowflake-semantic-view-skill](https://github.com/MiguelElGallo/snowflake-semantic-view-skill) ⭐5 | Snowflake semantic view generator | - | - | ✅ | ✅ |
 | [FastAPI-in-Snowflake](https://github.com/MiguelElGallo/FastAPI-in-Snowflake) ⭐4 | FastAPI in Snowflake containers | fastapi, snowflake-connector-python, uvicorn, python-jose, passlib, bcrypt | - | ✅ | - |
 | [SynapseApacheIceBergExperiment](https://github.com/MiguelElGallo/SynapseApacheIceBergExperiment) ⭐4 | Apache Iceberg Synapse experiments | - | Synapse Analytics | ✅ | - |
-| [azquack](https://github.com/MiguelElGallo/azquack) ⭐3 | DuckDB Quack server on Azure | duckdb, psycopg | - | ✅ | - |
 | [evsnow](https://github.com/MiguelElGallo/evsnow) ⭐3 | EventHub to Snowflake streaming | azure-eventhub, azure-identity, snowflake-connector-python, pydantic-ai | Event Hubs | ✅ | ✅ |
 | [simple-streamlit-azd](https://github.com/MiguelElGallo/simple-streamlit-azd) ⭐3 | Streamlit Azure App Service template | pandas, numpy, streamlit | App Service | ✅ | - |
 | [snapshottest](https://github.com/MiguelElGallo/snapshottest) ⭐1 | Inline snapshot testing demo | httpx, rich, typer | - | - | - |
 | [ragsql](https://github.com/MiguelElGallo/ragsql) ⭐1 | RAG for SQL queries | langchain, openai, snowflake-connector-python | - | ✅ | ✅ |
-| [snowdag](https://github.com/MiguelElGallo/snowdag) | Airflow dbt Snowpark SPCS demo | - | - | ✅ | - |
+| [neoquack](https://github.com/MiguelElGallo/neoquack) | DuckDB Quack server free tier | duckdb, fastapi, httpx, psycopg | - | ✅ | - |
+| [snowdag](https://github.com/MiguelElGallo/snowdag) | Airflow dbt Snowpark SPCS | - | - | ✅ | - |
 | [fastapi-free](https://github.com/MiguelElGallo/fastapi-free) | FastAPI free-threading benchmark | fastapi, uvicorn, prometheus-client | - | - | - |
 | [RioArriba](https://github.com/MiguelElGallo/RioArriba) | River shooter arcade game | - | - | - | - |
 | [ir-support-site](https://github.com/MiguelElGallo/ir-support-site) | iOS app support pages | - | - | - | - |
@@ -43,7 +44,7 @@ Here are the repositories I maintain or contribute to:
 | [ghs](https://github.com/MiguelElGallo/ghs) | GitHub variables sync tool | pydantic, python-dotenv, typer | - | - | - |
 | [myfirstmcp-openai](https://github.com/MiguelElGallo/myfirstmcp-openai) | FastMCP Azure deployment | mcp, gunicorn, uvicorn | App Service | - | ✅ |
 | [CallAPIfromLLM](https://github.com/MiguelElGallo/CallAPIfromLLM) | LLM function calling demo | - | - | - | ✅ |
-| [homebrew-iparq](https://github.com/MiguelElGallo/homebrew-iparq) | Homebrew repository for iparq | - | - | - | - |
+| [homebrew-iparq](https://github.com/MiguelElGallo/homebrew-iparq) | Homebrew package for iparq | - | - | - | - |
 | [snowtofu](https://github.com/MiguelElGallo/snowtofu) | Snowflake Tofu deployment | - | Storage Account | ✅ | - |
 | [simple-fastapi-snow-azd](https://github.com/MiguelElGallo/simple-fastapi-snow-azd) | FastAPI Snowflake pagination | azure-functions, fastapi, snowflake-sqlalchemy | Functions | ✅ | - |
 | [embeddindataengineering](https://github.com/MiguelElGallo/embeddindataengineering) | OpenAI embeddings for engineering | - | - | ✅ | ✅ |
@@ -62,4 +63,4 @@ Here are the repositories I maintain or contribute to:
 | [dvsat](https://github.com/MiguelElGallo/dvsat) | Data Vault satellite patterns | - | - | ✅ | - |
 | [JoinOrAssociation](https://github.com/MiguelElGallo/JoinOrAssociation) | BI tools fan trap demo | - | - | ✅ | - |
 
-_Last updated: 2026-05-14_
+_Last updated: 2026-05-17_
