@@ -15,21 +15,21 @@ Here are the repositories I maintain or contribute to:
 
 | Repository | Short Description | Python libraries | Azure services | Data? | AI? |
 | :--------- | :---------------- | :--------------- | :------------- | :---: | :-: |
-| [mpzsql](https://github.com/MiguelElGallo/mpzsql) ⭐26 | Arrow Flight SQL DuckDB lakehouse | azure-identity, duckdb, grpcio, pyarrow, pyjwt | Container Apps, Blob Storage | ✅ | - |
-| [iparq](https://github.com/MiguelElGallo/iparq) ⭐25 | Parquet file compression inspection CLI | pyarrow, typer, pydantic, rich | - | ✅ | - |
-| [modelando](https://github.com/MiguelElGallo/modelando) ⭐11 | Data modeling education materials | - | - | ✅ | - |
-| [api-elt](https://github.com/MiguelElGallo/api-elt) ⭐9 | API to database ELT pipeline | dlt, python-dotenv | - | ✅ | - |
-| [azquack](https://github.com/MiguelElGallo/azquack) ⭐5 | DuckDB Quack server on Azure | duckdb, psycopg | Blob Storage | ✅ | - |
+| [mpzsql](https://github.com/MiguelElGallo/mpzsql) ⭐26 | Arrow Flight SQL DuckDB lakehouse | azure-identity, duckdb, grpcio, pyarrow, pyjwt, typer | Container Apps, Blob Storage | ✅ | - |
+| [iparq](https://github.com/MiguelElGallo/iparq) ⭐25 | Parquet file inspection CLI tool | pyarrow, typer, pydantic, rich | - | ✅ | - |
+| [modelando](https://github.com/MiguelElGallo/modelando) ⭐11 | Data modeling education content | - | - | ✅ | - |
+| [api-elt](https://github.com/MiguelElGallo/api-elt) ⭐9 | API pagination to DuckDB ELT | dlt, python-dotenv | - | ✅ | - |
+| [azquack](https://github.com/MiguelElGallo/azquack) ⭐5 | DuckDB Quack remote server | duckdb, psycopg | Blob Storage | ✅ | - |
 | [snowflake-semantic-view-skill](https://github.com/MiguelElGallo/snowflake-semantic-view-skill) ⭐5 | Snowflake semantic view generator | - | - | ✅ | ✅ |
 | [FastAPI-in-Snowflake](https://github.com/MiguelElGallo/FastAPI-in-Snowflake) ⭐4 | FastAPI in Snowflake containers | fastapi, snowflake-connector-python, uvicorn, python-jose, passlib, bcrypt | - | ✅ | - |
-| [SynapseApacheIceBergExperiment](https://github.com/MiguelElGallo/SynapseApacheIceBergExperiment) ⭐4 | Apache Iceberg Synapse experiments | - | Synapse Analytics | ✅ | - |
+| [SynapseApacheIceBergExperiment](https://github.com/MiguelElGallo/SynapseApacheIceBergExperiment) ⭐4 | Apache Iceberg Synapse experiment | - | Synapse Analytics | ✅ | - |
 | [evsnow](https://github.com/MiguelElGallo/evsnow) ⭐3 | EventHub to Snowflake streaming | azure-eventhub, azure-identity, snowflake-connector-python, pydantic-ai | Event Hubs | ✅ | ✅ |
 | [simple-streamlit-azd](https://github.com/MiguelElGallo/simple-streamlit-azd) ⭐3 | Streamlit Azure App Service template | pandas, numpy, streamlit | App Service | ✅ | - |
 | [snapshottest](https://github.com/MiguelElGallo/snapshottest) ⭐1 | Inline snapshot testing demo | httpx, rich, typer | - | - | - |
-| [ragsql](https://github.com/MiguelElGallo/ragsql) ⭐1 | RAG for SQL queries | langchain, openai, snowflake-connector-python | - | ✅ | ✅ |
+| [ragsql](https://github.com/MiguelElGallo/ragsql) ⭐1 | RAG for SQL query generation | langchain, openai, snowflake-connector-python | - | ✅ | ✅ |
+| [neoquack](https://github.com/MiguelElGallo/neoquack) | DuckDB Quack server free-tier | duckdb, fastapi, httpx, psycopg | - | ✅ | - |
 | [codemode](https://github.com/MiguelElGallo/codemode) | MCP vs CodeMode comparison | mcp, pydantic | - | - | ✅ |
-| [SnowflakeCortexCLI](https://github.com/MiguelElGallo/SnowflakeCortexCLI) | Cortex CLI single-role authentication | - | - | ✅ | ✅ |
-| [neoquack](https://github.com/MiguelElGallo/neoquack) | DuckDB Quack server free tier | duckdb, fastapi, httpx, psycopg | - | ✅ | - |
+| [SnowflakeCortexCLI](https://github.com/MiguelElGallo/SnowflakeCortexCLI) | Cortex CLI single-role auth | - | - | ✅ | ✅ |
 | [snowdag](https://github.com/MiguelElGallo/snowdag) | Airflow dbt Snowpark SPCS | - | - | ✅ | - |
 | [fastapi-free](https://github.com/MiguelElGallo/fastapi-free) | FastAPI free-threading benchmark | fastapi, uvicorn, prometheus-client | - | - | - |
 | [RioArriba](https://github.com/MiguelElGallo/RioArriba) | River shooter arcade game | - | - | - | - |
@@ -38,14 +38,14 @@ Here are the repositories I maintain or contribute to:
 | [snowmcpaz](https://github.com/MiguelElGallo/snowmcpaz) | Snowflake MCP Azure extension | - | - | ✅ | ✅ |
 | [jwtaztoken](https://github.com/MiguelElGallo/jwtaztoken) | Azure JWT token explorer | cryptography, httpx, pyjwt, rich, typer | - | - | - |
 | [dlthubarrow](https://github.com/MiguelElGallo/dlthubarrow) | DLT Arrow performance testing | dlt, pyarrow, snowflake-connector-python | Container Apps, Key Vault | ✅ | - |
-| [snowdcm](https://github.com/MiguelElGallo/snowdcm) | Snowflake DCM object management | - | - | ✅ | - |
-| [dlthubsnow](https://github.com/MiguelElGallo/dlthubsnow) | DLT GitHub Issues pipeline | dlt, requests | - | ✅ | - |
+| [snowdcm](https://github.com/MiguelElGallo/snowdcm) | Snowflake DCM declarative setup | - | - | ✅ | - |
+| [dlthubsnow](https://github.com/MiguelElGallo/dlthubsnow) | DLT GitHub issues pipeline | dlt, requests | - | ✅ | - |
 | [Arrow_as_source](https://github.com/MiguelElGallo/Arrow_as_source) | Arrow universal dataset demo | arrow, duckdb, polars, pyarrow | - | ✅ | - |
 | [ghs](https://github.com/MiguelElGallo/ghs) | GitHub variables sync tool | pydantic, python-dotenv, typer | - | - | - |
 | [myfirstmcp-openai](https://github.com/MiguelElGallo/myfirstmcp-openai) | FastMCP Azure deployment | mcp, gunicorn, uvicorn | App Service | - | ✅ |
 | [CallAPIfromLLM](https://github.com/MiguelElGallo/CallAPIfromLLM) | LLM function calling demo | - | - | - | ✅ |
 | [homebrew-iparq](https://github.com/MiguelElGallo/homebrew-iparq) | Homebrew package for iparq | - | - | - | - |
-| [snowtofu](https://github.com/MiguelElGallo/snowtofu) | Snowflake Tofu deployment | - | Storage Account | ✅ | - |
+| [snowtofu](https://github.com/MiguelElGallo/snowtofu) | Snowflake Tofu IaC deployment | - | Storage Account | ✅ | - |
 | [simple-fastapi-snow-azd](https://github.com/MiguelElGallo/simple-fastapi-snow-azd) | FastAPI Snowflake pagination | fastapi, snowflake-sqlalchemy | Functions | ✅ | - |
 | [embeddindataengineering](https://github.com/MiguelElGallo/embeddindataengineering) | OpenAI embeddings for engineering | - | - | ✅ | ✅ |
 | [mycv](https://github.com/MiguelElGallo/mycv) | Personal CV repository | - | - | - | - |
@@ -63,4 +63,4 @@ Here are the repositories I maintain or contribute to:
 | [dvsat](https://github.com/MiguelElGallo/dvsat) | Data Vault satellite patterns | - | - | ✅ | - |
 | [JoinOrAssociation](https://github.com/MiguelElGallo/JoinOrAssociation) | BI tools fan trap demo | - | - | ✅ | - |
 
-_Last updated: 2026-05-24_
+_Last updated: 2026-06-07_
