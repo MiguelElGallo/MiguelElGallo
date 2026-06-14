@@ -63,4 +63,4 @@ Here are the repositories I maintain or contribute to:
 | [dvsat](https://github.com/MiguelElGallo/dvsat) | Data Vault satellite patterns | - | - | ✅ | - |
 | [JoinOrAssociation](https://github.com/MiguelElGallo/JoinOrAssociation) | BI tools fan trap demo | - | - | ✅ | - |
 
-_Last updated: 2026-06-07_
+_Last updated: 2026-06-14_
