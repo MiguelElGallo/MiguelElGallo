@@ -15,20 +15,21 @@ Here are the repositories I maintain or contribute to:
 
 | Repository | Short Description | Python libraries | Azure services | Data? | AI? |
 | :--------- | :---------------- | :--------------- | :------------- | :---: | :-: |
-| [mpzsql](https://github.com/MiguelElGallo/mpzsql) ⭐26 | Arrow Flight SQL DuckDB lakehouse | azure-identity, duckdb, grpcio, pyarrow, pyjwt | Container Apps, Blob Storage | ✅ | - |
-| [iparq](https://github.com/MiguelElGallo/iparq) ⭐25 | Parquet file metadata inspection CLI | pyarrow, typer, pydantic, rich | - | ✅ | - |
+| [mpzsql](https://github.com/MiguelElGallo/mpzsql) ⭐27 | Arrow Flight SQL DuckDB lakehouse | azure-identity, duckdb, grpcio, pyarrow, pyjwt | Blob Storage, Container Apps | ✅ | - |
+| [iparq](https://github.com/MiguelElGallo/iparq) ⭐25 | Parquet metadata inspection CLI tool | pyarrow, typer, pydantic, rich | - | ✅ | - |
 | [modelando](https://github.com/MiguelElGallo/modelando) ⭐11 | Data modeling educational content | - | - | ✅ | - |
 | [api-elt](https://github.com/MiguelElGallo/api-elt) ⭐9 | API to DuckDB ELT pipeline | dlt, python-dotenv | - | ✅ | - |
 | [azquack](https://github.com/MiguelElGallo/azquack) ⭐6 | DuckDB Quack server on Azure | duckdb, psycopg | Blob Storage | ✅ | - |
 | [snowflake-semantic-view-skill](https://github.com/MiguelElGallo/snowflake-semantic-view-skill) ⭐5 | Snowflake semantic view creator skill | - | - | ✅ | ✅ |
 | [FastAPI-in-Snowflake](https://github.com/MiguelElGallo/FastAPI-in-Snowflake) ⭐4 | FastAPI in Snowflake containers | fastapi, snowflake-connector-python, uvicorn | - | ✅ | - |
 | [SynapseApacheIceBergExperiment](https://github.com/MiguelElGallo/SynapseApacheIceBergExperiment) ⭐4 | Apache Iceberg with Synapse Spark | - | Synapse Analytics | ✅ | - |
-| [evsnow](https://github.com/MiguelElGallo/evsnow) ⭐3 | EventHub to Snowflake streaming | azure-eventhub, azure-identity, snowflake-connector-python, pydantic-ai | Event Hubs | ✅ | ✅ |
+| [evsnow](https://github.com/MiguelElGallo/evsnow) ⭐3 | EventHub to Snowflake streaming pipeline | azure-eventhub, azure-identity, snowflake-connector-python, pydantic-ai | Event Hubs | ✅ | ✅ |
 | [simple-streamlit-azd](https://github.com/MiguelElGallo/simple-streamlit-azd) ⭐3 | Streamlit on Azure App Service | pandas, numpy, streamlit | App Service | ✅ | - |
 | [snapshottest](https://github.com/MiguelElGallo/snapshottest) ⭐1 | Inline snapshot testing demo | httpx, rich, typer | - | - | - |
 | [ragsql](https://github.com/MiguelElGallo/ragsql) ⭐1 | RAG for database queries | langchain, openai, snowflake-connector-python | - | ✅ | ✅ |
+| [md-to-pdf](https://github.com/MiguelElGallo/md-to-pdf) | Markdown to PDF with Mermaid | zensical | - | - | - |
 | [bricks-cli](https://github.com/MiguelElGallo/bricks-cli) | dbt on Databricks deployment | - | - | ✅ | - |
-| [evbricks](https://github.com/MiguelElGallo/evbricks) | EventHub to Databricks Zerobus | azure-eventhub, azure-identity, databricks-zerobus-ingest-sdk | Event Hubs | ✅ | - |
+| [evbricks](https://github.com/MiguelElGallo/evbricks) | EventHub to Databricks Zerobus bridge | azure-eventhub, azure-identity, databricks-zerobus-ingest-sdk | Event Hubs | ✅ | - |
 | [codemode](https://github.com/MiguelElGallo/codemode) | MCP versus CodeMode comparison | mcp, pydantic | - | - | ✅ |
 | [neoquack](https://github.com/MiguelElGallo/neoquack) | DuckDB Quack free-tier deployment | duckdb, fastapi, httpx, psycopg | - | ✅ | - |
 | [SnowflakeCortexCLI](https://github.com/MiguelElGallo/SnowflakeCortexCLI) | Cortex CLI single-role authentication | - | - | ✅ | ✅ |
@@ -37,7 +38,7 @@ Here are the repositories I maintain or contribute to:
 | [RioArriba](https://github.com/MiguelElGallo/RioArriba) | River shooter arcade game | - | - | - | - |
 | [ir-support-site](https://github.com/MiguelElGallo/ir-support-site) | iOS app support pages | - | - | - | - |
 | [snow_iceberg_snowstorage](https://github.com/MiguelElGallo/snow_iceberg_snowstorage) | Snowflake-managed Iceberg tables | - | - | ✅ | - |
-| [snowmcpaz](https://github.com/MiguelElGallo/snowmcpaz) | Snowflake MCP Azure auth | - | - | ✅ | ✅ |
+| [snowmcpaz](https://github.com/MiguelElGallo/snowmcpaz) | Snowflake MCP Azure auth extension | - | - | ✅ | ✅ |
 | [jwtaztoken](https://github.com/MiguelElGallo/jwtaztoken) | Azure JWT token CLI explorer | cryptography, httpx, pyjwt, rich, typer | - | - | - |
 | [dlthubarrow](https://github.com/MiguelElGallo/dlthubarrow) | dlt Arrow on Azure Container Apps | dlt, pyarrow, snowflake-connector-python | Container Apps, Key Vault | ✅ | - |
 | [snowdcm](https://github.com/MiguelElGallo/snowdcm) | Snowflake DCM declarative objects | - | - | ✅ | - |
@@ -65,4 +66,4 @@ Here are the repositories I maintain or contribute to:
 | [dvsat](https://github.com/MiguelElGallo/dvsat) | Data Vault satellite patterns | - | - | ✅ | - |
 | [JoinOrAssociation](https://github.com/MiguelElGallo/JoinOrAssociation) | BI tools fan trap demo | - | - | ✅ | - |
 
-_Last updated: 2026-06-28_
+_Last updated: 2026-07-05_
