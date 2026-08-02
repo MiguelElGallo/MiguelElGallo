@@ -17,16 +17,17 @@ Here are the repositories I maintain or contribute to:
 | :--------- | :---------------- | :--------------- | :------------- | :---: | :-: |
 | [mpzsql](https://github.com/MiguelElGallo/mpzsql) ⭐28 | Arrow Flight SQL DuckDB lakehouse | azure-identity, duckdb, grpcio, pyarrow, pyjwt | Blob Storage, Container Apps, PostgreSQL | ✅ | - |
 | [iparq](https://github.com/MiguelElGallo/iparq) ⭐25 | Parquet metadata inspection CLI | pyarrow, pydantic, rich, typer | - | ✅ | - |
-| [modelando](https://github.com/MiguelElGallo/modelando) ⭐11 | Bilingual data modeling materials | - | - | ✅ | - |
+| [modelando](https://github.com/MiguelElGallo/modelando) ⭐11 | Bilingual data modeling course materials | - | - | ✅ | - |
 | [api-elt](https://github.com/MiguelElGallo/api-elt) ⭐9 | API to DuckDB ELT pipeline | dlt, python-dotenv | - | ✅ | - |
 | [azquack](https://github.com/MiguelElGallo/azquack) ⭐6 | DuckDB Quack on Azure | duckdb | Blob Storage, Container Apps | ✅ | - |
-| [snowflake-semantic-view-skill](https://github.com/MiguelElGallo/snowflake-semantic-view-skill) ⭐5 | Snowflake semantic view skill | - | - | ✅ | ✅ |
+| [snowflake-semantic-view-skill](https://github.com/MiguelElGallo/snowflake-semantic-view-skill) ⭐5 | Snowflake semantic view creation skill | - | - | ✅ | ✅ |
 | [FastAPI-in-Snowflake](https://github.com/MiguelElGallo/FastAPI-in-Snowflake) ⭐4 | FastAPI in Snowflake containers | fastapi, snowflake-connector-python, uvicorn | - | ✅ | - |
 | [SynapseApacheIceBergExperiment](https://github.com/MiguelElGallo/SynapseApacheIceBergExperiment) ⭐4 | Iceberg with Synapse Spark | - | Synapse Analytics | ✅ | - |
 | [evsnow](https://github.com/MiguelElGallo/evsnow) ⭐3 | Event Hubs to Snowflake streaming | azure-eventhub, azure-identity, pydantic-ai, snowflake-connector-python | Event Hubs | ✅ | ✅ |
 | [simple-streamlit-azd](https://github.com/MiguelElGallo/simple-streamlit-azd) ⭐3 | Streamlit on App Service | streamlit | App Service | ✅ | - |
 | [snapshottest](https://github.com/MiguelElGallo/snapshottest) ⭐1 | Inline snapshot testing demo | httpx, inline-snapshot, rich, typer | - | - | - |
 | [ragsql](https://github.com/MiguelElGallo/ragsql) ⭐1 | RAG for SQL queries | langchain, openai, snowflake-connector-python | - | ✅ | ✅ |
+| [iparq](https://github.com/MiguelElGallo/iparq) | Parquet metadata inspection CLI | pyarrow, pydantic, rich, typer | - | ✅ | - |
 | [md-to-pdf](https://github.com/MiguelElGallo/md-to-pdf) | Markdown to PDF converter | zensical | - | - | - |
 | [dbtobsb](https://github.com/MiguelElGallo/dbtobsb) | dbt Core observability for Databricks | - | - | ✅ | - |
 | [bricks-cli](https://github.com/MiguelElGallo/bricks-cli) | dbt on Databricks with CLI | - | - | ✅ | - |
@@ -69,4 +70,4 @@ Here are the repositories I maintain or contribute to:
 | [dvsat](https://github.com/MiguelElGallo/dvsat) | Data Vault extended satellite | - | - | ✅ | - |
 | [JoinOrAssociation](https://github.com/MiguelElGallo/JoinOrAssociation) | BI tool fan trap handling | - | - | ✅ | - |
 
-_Last updated: 2026-07-26_
+_Last updated: 2026-08-02_
