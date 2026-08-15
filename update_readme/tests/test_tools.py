@@ -8,8 +8,10 @@ from unittest.mock import MagicMock, patch
 import pytest
 
 from src.tools import (
+    REPOSITORY_SECTION_HEADING,
     get_current_date,
     list_repos,
+    preserve_manual_prefix,
     read_current_readme,
     write_readme,
 )
@@ -24,10 +26,30 @@ class TestReadWriteReadme:
 
     def test_write_readme(self, tmp_path: Path) -> None:
         readme = tmp_path / "README.md"
-        readme.write_text("old", encoding="utf-8")
-        result = write_readme(str(tmp_path), "# New Content")
+        readme.write_text(
+            f"# Profile\n\nManual showcase\n\n{REPOSITORY_SECTION_HEADING}\n\nOld table",
+            encoding="utf-8",
+        )
+        result = write_readme(
+            str(tmp_path),
+            f"# Changed by model\n\n{REPOSITORY_SECTION_HEADING}\n\nNew table",
+        )
         assert "written successfully" in result
-        assert readme.read_text(encoding="utf-8") == "# New Content"
+        assert readme.read_text(encoding="utf-8") == (
+            f"# Profile\n\nManual showcase\n\n{REPOSITORY_SECTION_HEADING}\n\nNew table"
+        )
+
+    def test_preserve_manual_prefix_rejects_missing_generated_boundary(self) -> None:
+        current = f"# Profile\n\n{REPOSITORY_SECTION_HEADING}\n\nOld table"
+
+        with pytest.raises(ValueError, match="Generated README is missing boundary"):
+            preserve_manual_prefix(current, "# Profile\n\nReplacement without heading")
+
+    def test_preserve_manual_prefix_rejects_missing_current_boundary(self) -> None:
+        generated = f"# Profile\n\n{REPOSITORY_SECTION_HEADING}\n\nNew table"
+
+        with pytest.raises(ValueError, match="Current README is missing boundary"):
+            preserve_manual_prefix("# Profile only", generated)
 
     def test_read_missing_readme(self, tmp_path: Path) -> None:
         with pytest.raises(FileNotFoundError):

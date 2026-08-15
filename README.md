@@ -11,6 +11,20 @@
 
 🎓 Certified on Azure, Snowflake, Google Cloud, with an MSc in Software & Systems Engineering and executive courses from Stanford and Harvard Business School.
 
+## Featured projects
+
+Some of my projects are also available through agent plugin marketplaces and Microsoft's Awesome AZD catalog:
+
+| Project | Where to find it | Quick start |
+| :------ | :--------------- | :---------- |
+| [iParq](https://github.com/MiguelElGallo/iparq) | [Codex and GitHub Copilot plugin marketplace](https://github.com/MiguelElGallo/iparq#install-as-an-agent-plugin), [VS Code source install](https://github.com/MiguelElGallo/iparq), [PyPI](https://pypi.org/project/iparq/), and [Homebrew](https://github.com/MiguelElGallo/homebrew-iparq) | `codex plugin marketplace add MiguelElGallo/iparq`<br>`codex plugin add iparq@iparq`<br>VS Code: **Chat: Install Plugin From Source** |
+| [md-to-pdf](https://github.com/MiguelElGallo/md-to-pdf) | [Codex and GitHub Copilot plugin marketplace](https://github.com/MiguelElGallo/md-to-pdf#install-as-an-agent-plugin), [VS Code source install](https://github.com/MiguelElGallo/md-to-pdf#vs-code), and [GitHub Releases](https://github.com/MiguelElGallo/md-to-pdf/releases/latest) | `codex plugin marketplace add MiguelElGallo/md-to-pdf`<br>`codex plugin add md-to-pdf@md-to-pdf`<br>VS Code: **Chat: Install Plugin From Source** |
+| [FastAPI + Snowflake on Azure Functions](https://github.com/MiguelElGallo/simple-fastapi-snow-azd) | [Awesome AZD catalog](https://azure.github.io/awesome-azd/templates/?name=snowflake) | `azd init --template MiguelElGallo/simple-fastapi-snow-azd` |
+| [Simple Streamlit on Azure App Service](https://github.com/MiguelElGallo/simple-streamlit-azd) | [Awesome AZD catalog](https://azure.github.io/awesome-azd/templates/?name=streamlit) | `azd init --template MiguelElGallo/simple-streamlit-azd` |
+| [FastMCP on Azure App Service](https://github.com/MiguelElGallo/myfirstmcp-openai) | [Awesome AZD catalog](https://azure.github.io/awesome-azd/templates/?name=fastmcp) | `azd init --template MiguelElGallo/myfirstmcp-openai` |
+
+<!-- The automated repository table updater preserves everything above the heading below. -->
+
 Here are the repositories I maintain or contribute to:
 
 | Repository | Short Description | Python libraries | Azure services | Data? | AI? |

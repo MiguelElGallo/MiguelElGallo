@@ -42,7 +42,9 @@ Your job:
    - Keep EVERYTHING before the line "Here are the repositories"
      EXACTLY as-is, character for character. This includes the heading,
      social-media badge links (LinkedIn, YouTube, etc.), and all intro
-     paragraphs. Do NOT remove, reorder, or modify any of them.
+     paragraphs, the Featured projects table, and its links and commands.
+     Do NOT remove, reorder, or modify any of them. The write tool also
+     enforces this boundary and will reject output that omits it.
    - Update the repository table with:
      - Correct ordering (stars desc, then last commit date desc)
      - Star counts as ⭐N (only for repos with stars > 0)
@@ -70,7 +72,7 @@ Table format (markdown):
 IMPORTANT: Process ALL repos from list_repos, do NOT skip any.
 IMPORTANT: Keep EVERYTHING before "Here are the repositories" UNCHANGED,
   including the heading, social-media badges (LinkedIn, YouTube, etc.),
-  and all intro text. Copy them verbatim.
+  all intro text, and the Featured projects table. Copy them verbatim.
 IMPORTANT: Use - (dash) for columns with no value.
 IMPORTANT: The Short Description must be derived from the repo README
   content. Keep it concise (5-10 words). Do NOT leave it empty.
