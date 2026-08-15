@@ -39,14 +39,15 @@ Here are the repositories I maintain or contribute to:
 | [SynapseApacheIceBergExperiment](https://github.com/MiguelElGallo/SynapseApacheIceBergExperiment) ⭐4 | Iceberg with Synapse Spark | - | Synapse Analytics | ✅ | - |
 | [evsnow](https://github.com/MiguelElGallo/evsnow) ⭐3 | Event Hubs to Snowflake streaming | azure-eventhub, azure-identity, pydantic-ai, snowflake-connector-python | Event Hubs | ✅ | ✅ |
 | [simple-streamlit-azd](https://github.com/MiguelElGallo/simple-streamlit-azd) ⭐3 | Streamlit on App Service template | streamlit | App Service | ✅ | - |
+| [sensormatrix](https://github.com/MiguelElGallo/sensormatrix) ⭐1 | ESP32 sensor regression testing | pydantic, pyserial, pyyaml, typer | - | ✅ | - |
 | [snapshottest](https://github.com/MiguelElGallo/snapshottest) ⭐1 | Inline snapshot testing demo | httpx, inline-snapshot, rich, typer | - | - | - |
 | [ragsql](https://github.com/MiguelElGallo/ragsql) ⭐1 | RAG for SQL queries | langchain, openai, snowflake-connector-python | - | ✅ | ✅ |
-| [sensormatrix](https://github.com/MiguelElGallo/sensormatrix) | ESP32 sensor regression testing | pydantic, pyserial, pyyaml, typer | - | ✅ | - |
+| [md-to-pdf](https://github.com/MiguelElGallo/md-to-pdf) | Markdown to PDF with Mermaid | zensical | - | - | - |
+| [homebrew-iparq](https://github.com/MiguelElGallo/homebrew-iparq) | Homebrew tap for iparq | - | - | - | - |
+| [api-test-pilot](https://github.com/MiguelElGallo/api-test-pilot) | Contract-driven API test generation | httpx, jsonschema, pydantic, pyyaml, typer | - | - | ✅ |
 | [dbtobsb](https://github.com/MiguelElGallo/dbtobsb) | dbt Core observability for Databricks | - | - | ✅ | - |
 | [evbricks](https://github.com/MiguelElGallo/evbricks) | Event Hubs to Databricks Zerobus | azure-eventhub, azure-identity, databricks-zerobus-ingest-sdk | Event Hubs | ✅ | - |
 | [bricksgdpr-publi](https://github.com/MiguelElGallo/bricksgdpr-publi) | GDPR pseudonymization with dbt Databricks | dbt-core, dbt-databricks | - | ✅ | - |
-| [homebrew-iparq](https://github.com/MiguelElGallo/homebrew-iparq) | Homebrew tap for iparq | - | - | - | - |
-| [md-to-pdf](https://github.com/MiguelElGallo/md-to-pdf) | Markdown to PDF with Mermaid | zensical | - | - | - |
 | [bricks-cli](https://github.com/MiguelElGallo/bricks-cli) | dbt on Databricks with CLI | - | - | ✅ | - |
 | [bricksgdpr](https://github.com/MiguelElGallo/bricksgdpr) | dbt Databricks GDPR demonstration | dbt-core, dbt-databricks | - | ✅ | - |
 | [codemode](https://github.com/MiguelElGallo/codemode) | Code Mode vs MCP benchmark | mcp, pydantic | - | - | ✅ |
@@ -84,4 +85,4 @@ Here are the repositories I maintain or contribute to:
 | [dvsat](https://github.com/MiguelElGallo/dvsat) | Data Vault extended satellite | - | - | ✅ | - |
 | [JoinOrAssociation](https://github.com/MiguelElGallo/JoinOrAssociation) | BI tool fan trap handling | - | - | ✅ | - |
 
-_Last updated: 2026-08-09_
+_Last updated: 2026-08-15_
