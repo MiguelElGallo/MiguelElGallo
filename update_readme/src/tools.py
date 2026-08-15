@@ -8,6 +8,8 @@ import subprocess
 from datetime import UTC
 from pathlib import Path
 
+REPOSITORY_SECTION_HEADING = "Here are the repositories I maintain or contribute to:"
+
 
 def _gh_api(endpoint: str) -> dict | list:
     """Call the GitHub API via the gh CLI."""
@@ -101,10 +103,27 @@ def read_current_readme(repo_path: str) -> str:
 
 
 def write_readme(repo_path: str, content: str) -> str:
-    """Write the updated README.md to the local repo."""
+    """Write the generated repository section while preserving the manual prefix."""
     readme_path = Path(repo_path) / "README.md"
-    readme_path.write_text(content, encoding="utf-8")
-    return f"README.md written successfully ({len(content)} chars)"
+    current_content = readme_path.read_text(encoding="utf-8")
+    merged_content = preserve_manual_prefix(current_content, content)
+    readme_path.write_text(merged_content, encoding="utf-8")
+    return f"README.md written successfully ({len(merged_content)} chars)"
+
+
+def preserve_manual_prefix(current_content: str, generated_content: str) -> str:
+    """Keep all hand-maintained content above the generated repository section."""
+    current_heading_index = current_content.find(REPOSITORY_SECTION_HEADING)
+    if current_heading_index == -1:
+        msg = f"Current README is missing boundary: {REPOSITORY_SECTION_HEADING!r}"
+        raise ValueError(msg)
+
+    generated_heading_index = generated_content.find(REPOSITORY_SECTION_HEADING)
+    if generated_heading_index == -1:
+        msg = f"Generated README is missing boundary: {REPOSITORY_SECTION_HEADING!r}"
+        raise ValueError(msg)
+
+    return current_content[:current_heading_index] + generated_content[generated_heading_index:]
 
 
 def get_current_date() -> str:
