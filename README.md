@@ -35,13 +35,14 @@ Here are the repositories I maintain or contribute to:
 | [api-elt](https://github.com/MiguelElGallo/api-elt) ⭐9 | API to DuckDB ELT pipeline | dlt, python-dotenv | - | ✅ | - |
 | [azquack](https://github.com/MiguelElGallo/azquack) ⭐6 | DuckDB Quack protocol on Azure | duckdb | Blob Storage, Container Apps | ✅ | - |
 | [snowflake-semantic-view-skill](https://github.com/MiguelElGallo/snowflake-semantic-view-skill) ⭐5 | Snowflake semantic view creation skill | - | - | ✅ | ✅ |
-| [FastAPI-in-Snowflake](https://github.com/MiguelElGallo/FastAPI-in-Snowflake) ⭐4 | FastAPI in Snowflake containers | fastapi, snowflake-connector-python, uvicorn | - | ✅ | - |
-| [SynapseApacheIceBergExperiment](https://github.com/MiguelElGallo/SynapseApacheIceBergExperiment) ⭐4 | Iceberg with Synapse Spark | - | Synapse Analytics | ✅ | - |
+| [FastAPI-in-Snowflake](https://github.com/MiguelElGallo/FastAPI-in-Snowflake) ⭐4 | FastAPI in Snowflake containers | fastapi, passlib, python-jose, snowflake-connector-python, uvicorn | - | ✅ | - |
+| [SynapseApacheIceBergExperiment](https://github.com/MiguelElGallo/SynapseApacheIceBergExperiment) ⭐4 | Iceberg with Synapse Spark experiments | - | Synapse Analytics | ✅ | - |
 | [evsnow](https://github.com/MiguelElGallo/evsnow) ⭐3 | Event Hubs to Snowflake streaming | azure-eventhub, azure-identity, pydantic-ai, snowflake-connector-python | Event Hubs | ✅ | ✅ |
-| [simple-streamlit-azd](https://github.com/MiguelElGallo/simple-streamlit-azd) ⭐3 | Streamlit on App Service template | streamlit | App Service | ✅ | - |
+| [simple-streamlit-azd](https://github.com/MiguelElGallo/simple-streamlit-azd) ⭐3 | Streamlit on App Service template | pandas, numpy, streamlit | App Service | ✅ | - |
 | [sensormatrix](https://github.com/MiguelElGallo/sensormatrix) ⭐1 | ESP32 sensor regression testing | pydantic, pyserial, pyyaml, typer | - | ✅ | - |
 | [snapshottest](https://github.com/MiguelElGallo/snapshottest) ⭐1 | Inline snapshot testing demo | httpx, inline-snapshot, rich, typer | - | - | - |
 | [ragsql](https://github.com/MiguelElGallo/ragsql) ⭐1 | RAG for SQL queries | langchain, openai, snowflake-connector-python | - | ✅ | ✅ |
+| [azure-ducklake-quack](https://github.com/MiguelElGallo/azure-ducklake-quack) | Azure-native DuckLake with Entra routing | - | Container Apps, PostgreSQL | ✅ | - |
 | [md-to-pdf](https://github.com/MiguelElGallo/md-to-pdf) | Markdown to PDF with Mermaid | zensical | - | - | - |
 | [homebrew-iparq](https://github.com/MiguelElGallo/homebrew-iparq) | Homebrew tap for iparq | - | - | - | - |
 | [api-test-pilot](https://github.com/MiguelElGallo/api-test-pilot) | Contract-driven API test generation | httpx, jsonschema, pydantic, pyyaml, typer | - | - | ✅ |
@@ -50,7 +51,7 @@ Here are the repositories I maintain or contribute to:
 | [bricksgdpr-publi](https://github.com/MiguelElGallo/bricksgdpr-publi) | GDPR pseudonymization with dbt Databricks | dbt-core, dbt-databricks | - | ✅ | - |
 | [bricks-cli](https://github.com/MiguelElGallo/bricks-cli) | dbt on Databricks with CLI | - | - | ✅ | - |
 | [bricksgdpr](https://github.com/MiguelElGallo/bricksgdpr) | dbt Databricks GDPR demonstration | dbt-core, dbt-databricks | - | ✅ | - |
-| [codemode](https://github.com/MiguelElGallo/codemode) | Code Mode vs MCP benchmark | mcp, pydantic | - | - | ✅ |
+| [codemode](https://github.com/MiguelElGallo/codemode) | Code Mode vs MCP benchmark | anthropic, mcp, openai, pydantic-ai-harness | - | - | ✅ |
 | [neoquack](https://github.com/MiguelElGallo/neoquack) | DuckDB Quack on free tiers | duckdb, fastapi, httpx, psycopg | - | ✅ | - |
 | [SnowflakeCortexCLI](https://github.com/MiguelElGallo/SnowflakeCortexCLI) | Single-role Cortex CLI authentication | - | - | ✅ | ✅ |
 | [snowdag](https://github.com/MiguelElGallo/snowdag) | Airflow dbt in Snowflake containers | - | - | ✅ | - |
@@ -71,7 +72,7 @@ Here are the repositories I maintain or contribute to:
 | [simple-fastapi-snow-azd](https://github.com/MiguelElGallo/simple-fastapi-snow-azd) | FastAPI Snowflake on Functions | fastapi, snowflake-sqlalchemy | Functions | ✅ | - |
 | [embeddindataengineering](https://github.com/MiguelElGallo/embeddindataengineering) | OpenAI embeddings in Fabric | - | - | ✅ | ✅ |
 | [mycv](https://github.com/MiguelElGallo/mycv) | Personal CV repository | - | - | - | - |
-| [Modelando2025](https://github.com/MiguelElGallo/Modelando2025) | Data modeling 2025 concepts | mkdocs-i18n, mkdocs-material | - | ✅ | - |
+| [Modelando2025](https://github.com/MiguelElGallo/Modelando2025) | Data modeling 2025 concepts | mkdocs-git-committers-plugin, mkdocs-i18n, mkdocs-material | - | ✅ | - |
 | [dltHub-teesting](https://github.com/MiguelElGallo/dltHub-teesting) | dltHub pytest tests | dlt, duckdb, pytest | - | ✅ | - |
 | [ChartToMD](https://github.com/MiguelElGallo/ChartToMD) | Chart to markdown for RAG | aiohttp, azure-identity, pydantic, typer | - | - | ✅ |
 | [SnowCLI](https://github.com/MiguelElGallo/SnowCLI) | Snowflake CLI with GitHub Actions | - | - | ✅ | - |
@@ -85,4 +86,4 @@ Here are the repositories I maintain or contribute to:
 | [dvsat](https://github.com/MiguelElGallo/dvsat) | Data Vault extended satellite | - | - | ✅ | - |
 | [JoinOrAssociation](https://github.com/MiguelElGallo/JoinOrAssociation) | BI tool fan trap handling | - | - | ✅ | - |
 
-_Last updated: 2026-08-15_
+_Last updated: 2026-08-16_
