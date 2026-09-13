@@ -34,7 +34,7 @@ Here are the repositories I maintain or contribute to:
 | [modelando](https://github.com/MiguelElGallo/modelando) ⭐11 | Bilingual data modeling educational materials | - | - | ✅ | - |
 | [api-elt](https://github.com/MiguelElGallo/api-elt) ⭐9 | ELT pipeline connecting APIs to databases | dlt, python-dotenv | - | ✅ | - |
 | [azquack](https://github.com/MiguelElGallo/azquack) ⭐6 | DuckDB Quack protocol on Azure | duckdb | Blob Storage, Container Apps | ✅ | - |
-| [snowflake-semantic-view-skill](https://github.com/MiguelElGallo/snowflake-semantic-view-skill) ⭐5 | Snowflake semantic view AI skill | - | - | ✅ | ✅ |
+| [snowflake-semantic-view-skill](https://github.com/MiguelElGallo/snowflake-semantic-view-skill) ⭐6 | Snowflake semantic view creation skill | - | - | ✅ | ✅ |
 | [FastAPI-in-Snowflake](https://github.com/MiguelElGallo/FastAPI-in-Snowflake) ⭐4 | FastAPI in Snowflake container services | fastapi, passlib, python-jose, snowflake-connector-python, uvicorn | - | ✅ | - |
 | [SynapseApacheIceBergExperiment](https://github.com/MiguelElGallo/SynapseApacheIceBergExperiment) ⭐4 | Apache Iceberg on Synapse Spark | - | Synapse Analytics | ✅ | - |
 | [evsnow](https://github.com/MiguelElGallo/evsnow) ⭐3 | Event Hubs to Snowflake streaming | azure-eventhub, azure-identity, pydantic-ai, snowflake-connector-python | Event Hubs | ✅ | ✅ |
@@ -42,19 +42,20 @@ Here are the repositories I maintain or contribute to:
 | [sensormatrix](https://github.com/MiguelElGallo/sensormatrix) ⭐1 | ESP32 sensor testing and regression | pydantic, pyserial, pyyaml, typer | - | ✅ | - |
 | [snapshottest](https://github.com/MiguelElGallo/snapshottest) ⭐1 | Inline snapshot testing demonstration | httpx, inline-snapshot, rich, typer | - | - | - |
 | [ragsql](https://github.com/MiguelElGallo/ragsql) ⭐1 | RAG-powered SQL query generation | langchain, openai, snowflake-connector-python | - | ✅ | ✅ |
+| [md-to-pdf](https://github.com/MiguelElGallo/md-to-pdf) | Markdown to PDF with Mermaid support | - | - | - | - |
+| [agent-plugin-forge](https://github.com/MiguelElGallo/agent-plugin-forge) | Agent Skills to validated Plugins | jsonschema, license-expression, pydantic, pyyaml, semantic-version | - | - | ✅ |
+| [docdr](https://github.com/MiguelElGallo/docdr) | Documentation doctor agent skill | - | - | - | ✅ |
+| [bricksgdpr-publi](https://github.com/MiguelElGallo/bricksgdpr-publi) | Databricks GDPR pseudonymization demo | dbt-core, dbt-databricks | - | ✅ | - |
 | [homebrew-iparq](https://github.com/MiguelElGallo/homebrew-iparq) | Homebrew tap for iparq CLI | - | - | - | - |
 | [dbtobsb](https://github.com/MiguelElGallo/dbtobsb) | dbt Core observability for Databricks | - | - | ✅ | - |
 | [skill-metric-view-dbr](https://github.com/MiguelElGallo/skill-metric-view-dbr) | Databricks metric view creation skill | - | - | ✅ | ✅ |
-| [Modelando2025](https://github.com/MiguelElGallo/Modelando2025) | Data modeling concepts 2025 edition | mkdocs-git-committers-plugin, mkdocs-i18n, mkdocs-material | - | ✅ | - |
-| [agent-plugin-forge](https://github.com/MiguelElGallo/agent-plugin-forge) | Agent Skills to validated Plugins | jsonschema, license-expression, pydantic, pyyaml, semantic-version | - | - | ✅ |
+| [Modelando2025](https://github.com/MiguelElGallo/Modelando2025) | Data modeling concepts 2025 edition | mkdocs-material, mkdocs-git-committers-plugin, mkdocs-i18n | - | ✅ | - |
 | [api-test-pilot](https://github.com/MiguelElGallo/api-test-pilot) | Contract-driven API test generation | httpx, jsonschema, pydantic, pyyaml, typer | - | - | ✅ |
 | [azure-ducklake-quack](https://github.com/MiguelElGallo/azure-ducklake-quack) | Azure-native DuckLake with Entra routing | - | Container Apps, PostgreSQL | ✅ | - |
-| [bricksgdpr-publi](https://github.com/MiguelElGallo/bricksgdpr-publi) | Databricks GDPR pseudonymization with dbt | dbt-core, dbt-databricks | - | ✅ | - |
 | [bricksgdpr](https://github.com/MiguelElGallo/bricksgdpr) | Databricks dbt GDPR demonstration | dbt-core, dbt-databricks | - | ✅ | - |
-| [md-to-pdf](https://github.com/MiguelElGallo/md-to-pdf) | Markdown to PDF converter with Mermaid | zensical | - | - | - |
-| [evbricks](https://github.com/MiguelElGallo/evbricks) | Event Hubs to Databricks streaming | azure-eventhub, azure-identity, databricks-zerobus-ingest-sdk | Event Hubs | ✅ | - |
+| [evbricks](https://github.com/MiguelElGallo/evbricks) | Event Hubs to Databricks streaming | aiohttp, azure-eventhub, azure-identity, databricks-zerobus-ingest-sdk | Event Hubs | ✅ | - |
 | [bricks-cli](https://github.com/MiguelElGallo/bricks-cli) | dbt on Databricks with CLI | - | - | ✅ | - |
-| [codemode](https://github.com/MiguelElGallo/codemode) | Code Mode vs MCP comparison | anthropic, mcp, openai, pydantic-ai-harness | - | - | ✅ |
+| [codemode](https://github.com/MiguelElGallo/codemode) | Code Mode vs MCP comparison | mcp, pydantic | - | - | ✅ |
 | [neoquack](https://github.com/MiguelElGallo/neoquack) | DuckDB Quack on free tiers | duckdb, fastapi, httpx, psycopg | - | ✅ | - |
 | [SnowflakeCortexCLI](https://github.com/MiguelElGallo/SnowflakeCortexCLI) | Single-role Snowflake Cortex CLI setup | - | - | ✅ | ✅ |
 | [snowdag](https://github.com/MiguelElGallo/snowdag) | Airflow dbt in Snowflake containers | - | - | ✅ | - |
@@ -75,7 +76,7 @@ Here are the repositories I maintain or contribute to:
 | [simple-fastapi-snow-azd](https://github.com/MiguelElGallo/simple-fastapi-snow-azd) | FastAPI Snowflake on Azure Functions | fastapi, snowflake-sqlalchemy | Functions | ✅ | - |
 | [embeddindataengineering](https://github.com/MiguelElGallo/embeddindataengineering) | OpenAI embeddings in Fabric | - | - | ✅ | ✅ |
 | [mycv](https://github.com/MiguelElGallo/mycv) | Personal CV repository | - | - | - | - |
-| [dltHub-teesting](https://github.com/MiguelElGallo/dltHub-teesting) | dltHub pytest testing | dlt, duckdb, pytest | - | ✅ | - |
+| [dltHub-teesting](https://github.com/MiguelElGallo/dltHub-teesting) | dltHub pytest testing | dlt, duckdb, mypy, pytest | - | ✅ | - |
 | [ChartToMD](https://github.com/MiguelElGallo/ChartToMD) | Chart to markdown for RAG | aiohttp, azure-identity, pydantic, typer | - | - | ✅ |
 | [SnowCLI](https://github.com/MiguelElGallo/SnowCLI) | Snowflake CLI with GitHub Actions | - | - | ✅ | - |
 | [rag-graph](https://github.com/MiguelElGallo/rag-graph) | Graph approaches for RAG testing | - | - | - | ✅ |
@@ -88,4 +89,4 @@ Here are the repositories I maintain or contribute to:
 | [dvsat](https://github.com/MiguelElGallo/dvsat) | Data Vault extended satellite demo | - | - | ✅ | - |
 | [JoinOrAssociation](https://github.com/MiguelElGallo/JoinOrAssociation) | BI tool fan trap handling | - | - | ✅ | - |
 
-_Last updated: 2026-09-06_
+_Last updated: 2026-09-13_
