@@ -42,7 +42,8 @@ Your job:
    - Keep EVERYTHING before the line "Here are the repositories"
      EXACTLY as-is, character for character. This includes the heading,
      social-media badge links (LinkedIn, YouTube, etc.), and all intro
-     paragraphs, the Featured projects table, and its links and commands.
+     paragraphs, the Featured projects table, the LinkedIn video demos
+     showcase, and all of their links and commands.
      Do NOT remove, reorder, or modify any of them. The write tool also
      enforces this boundary and will reject output that omits it.
    - Update the repository table with:
@@ -72,7 +73,8 @@ Table format (markdown):
 IMPORTANT: Process ALL repos from list_repos, do NOT skip any.
 IMPORTANT: Keep EVERYTHING before "Here are the repositories" UNCHANGED,
   including the heading, social-media badges (LinkedIn, YouTube, etc.),
-  all intro text, and the Featured projects table. Copy them verbatim.
+  all intro text, the Featured projects table, and the LinkedIn video demos
+  showcase. Copy them verbatim.
 IMPORTANT: Use - (dash) for columns with no value.
 IMPORTANT: The Short Description must be derived from the repo README
   content. Keep it concise (5-10 words). Do NOT leave it empty.
