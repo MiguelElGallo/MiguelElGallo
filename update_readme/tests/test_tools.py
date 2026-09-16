@@ -79,10 +79,14 @@ class TestReadWriteReadme:
         }
 
         assert readme.index("## LinkedIn video demos") < readme.index(REPOSITORY_SECTION_HEADING)
+        assert "raw.githubusercontent.com" not in readme
         for name in video_names:
             assert (video_directory / f"{name}.mp4").is_file()
             assert (video_directory / f"{name}-thumbnail.png").is_file()
-            assert f"assets/linkedin-videos/{name}.mp4" in readme
+            player_url = (
+                f"https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/{name}.mp4"
+            )
+            assert readme.count(player_url) == 2
             assert f"assets/linkedin-videos/{name}-thumbnail.png" in readme
 
 
