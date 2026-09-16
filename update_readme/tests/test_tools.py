@@ -51,9 +51,39 @@ class TestReadWriteReadme:
         with pytest.raises(ValueError, match="Current README is missing boundary"):
             preserve_manual_prefix("# Profile only", generated)
 
+    def test_preserve_manual_prefix_keeps_video_showcase(self) -> None:
+        showcase = "## LinkedIn video demos\n\n[Watch video](assets/linkedin-videos/example.mp4)"
+        current = f"# Profile\n\n{showcase}\n\n{REPOSITORY_SECTION_HEADING}\n\nOld table"
+        generated = f"# Changed\n\n{REPOSITORY_SECTION_HEADING}\n\nNew table"
+
+        result = preserve_manual_prefix(current, generated)
+
+        assert showcase in result
+        assert result.endswith(f"{REPOSITORY_SECTION_HEADING}\n\nNew table")
+
     def test_read_missing_readme(self, tmp_path: Path) -> None:
         with pytest.raises(FileNotFoundError):
             read_current_readme(str(tmp_path))
+
+    def test_profile_video_showcase_assets_are_complete(self) -> None:
+        profile_root = Path(__file__).resolve().parents[2]
+        readme = (profile_root / "README.md").read_text(encoding="utf-8")
+        video_directory = profile_root / "assets" / "linkedin-videos"
+        video_names = {
+            "agent-plugin-forge",
+            "agent-plugin-forge-team-skills",
+            "databricks-metric-view",
+            "docdr",
+            "tgrep-codex",
+            "tgrep-vscode",
+        }
+
+        assert readme.index("## LinkedIn video demos") < readme.index(REPOSITORY_SECTION_HEADING)
+        for name in video_names:
+            assert (video_directory / f"{name}.mp4").is_file()
+            assert (video_directory / f"{name}-thumbnail.png").is_file()
+            assert f"assets/linkedin-videos/{name}.mp4" in readme
+            assert f"assets/linkedin-videos/{name}-thumbnail.png" in readme
 
 
 class TestGetCurrentDate:
