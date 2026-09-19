@@ -74,6 +74,7 @@ class TestReadWriteReadme:
             "agent-plugin-forge-team-skills",
             "databricks-metric-view",
             "docdr",
+            "hellojev",
             "tgrep-codex",
             "tgrep-vscode",
         }
