@@ -54,17 +54,18 @@ Here are the repositories I maintain or contribute to:
 | [snapshottest](https://github.com/MiguelElGallo/snapshottest) ⭐1 | Inline snapshot testing demonstration | httpx, inline-snapshot, rich, typer | - | - | - |
 | [ragsql](https://github.com/MiguelElGallo/ragsql) ⭐1 | RAG-powered SQL query generation | langchain, openai, snowflake-connector-python | - | ✅ | ✅ |
 | [HelloJev](https://github.com/MiguelElGallo/HelloJev) | Pipeline failure recommendations with TypeSafe JEV | - | - | ✅ | ✅ |
+| [RioArriba](https://github.com/MiguelElGallo/RioArriba) | River shooter arcade game | - | - | - | - |
+| [st](https://github.com/MiguelElGallo/st) | Token saver for exploring repositories | - | - | - | - |
 | [md-to-pdf](https://github.com/MiguelElGallo/md-to-pdf) | Markdown to PDF with Mermaid support | - | - | - | - |
 | [agent-plugin-forge](https://github.com/MiguelElGallo/agent-plugin-forge) | Agent Skills to validated Plugins | jsonschema, license-expression, pydantic, pyyaml, semantic-version | - | - | ✅ |
 | [docdr](https://github.com/MiguelElGallo/docdr) | Documentation doctor agent skill | - | - | - | ✅ |
-| [bricksgdpr-publi](https://github.com/MiguelElGallo/bricksgdpr-publi) | Databricks GDPR pseudonymization demo | dbt-core, dbt-databricks | - | ✅ | - |
+| [bricksgdpr](https://github.com/MiguelElGallo/bricksgdpr) | Databricks dbt GDPR demonstration | dbt-core, dbt-databricks | - | ✅ | - |
 | [homebrew-iparq](https://github.com/MiguelElGallo/homebrew-iparq) | Homebrew tap for iparq CLI | - | - | - | - |
 | [dbtobsb](https://github.com/MiguelElGallo/dbtobsb) | dbt Core observability for Databricks | - | - | ✅ | - |
 | [skill-metric-view-dbr](https://github.com/MiguelElGallo/skill-metric-view-dbr) | Databricks metric view creation skill | - | - | ✅ | ✅ |
 | [Modelando2025](https://github.com/MiguelElGallo/Modelando2025) | Data modeling concepts 2025 edition | mkdocs-material, mkdocs-git-committers-plugin, mkdocs-i18n | - | ✅ | - |
 | [api-test-pilot](https://github.com/MiguelElGallo/api-test-pilot) | Contract-driven API test generation | httpx, jsonschema, pydantic, pyyaml, typer | - | - | ✅ |
 | [azure-ducklake-quack](https://github.com/MiguelElGallo/azure-ducklake-quack) | Azure-native DuckLake with Entra routing | - | Container Apps, PostgreSQL | ✅ | - |
-| [bricksgdpr](https://github.com/MiguelElGallo/bricksgdpr) | Databricks dbt GDPR demonstration | dbt-core, dbt-databricks | - | ✅ | - |
 | [evbricks](https://github.com/MiguelElGallo/evbricks) | Event Hubs to Databricks streaming | aiohttp, azure-eventhub, azure-identity, databricks-zerobus-ingest-sdk | Event Hubs | ✅ | - |
 | [bricks-cli](https://github.com/MiguelElGallo/bricks-cli) | dbt on Databricks with CLI | - | - | ✅ | - |
 | [codemode](https://github.com/MiguelElGallo/codemode) | Code Mode vs MCP comparison | mcp, pydantic | - | - | ✅ |
@@ -72,7 +73,6 @@ Here are the repositories I maintain or contribute to:
 | [SnowflakeCortexCLI](https://github.com/MiguelElGallo/SnowflakeCortexCLI) | Single-role Snowflake Cortex CLI setup | - | - | ✅ | ✅ |
 | [snowdag](https://github.com/MiguelElGallo/snowdag) | Airflow dbt in Snowflake containers | - | - | ✅ | - |
 | [fastapi-free](https://github.com/MiguelElGallo/fastapi-free) | FastAPI free-threading benchmark | fastapi, prometheus-client, uvicorn | - | - | - |
-| [RioArriba](https://github.com/MiguelElGallo/RioArriba) | River shooter arcade game | - | - | - | - |
 | [ir-support-site](https://github.com/MiguelElGallo/ir-support-site) | iOS app support site | - | - | - | - |
 | [snow_iceberg_snowstorage](https://github.com/MiguelElGallo/snow_iceberg_snowstorage) | Snowflake Iceberg with DuckDB demo | - | - | ✅ | - |
 | [snowmcpaz](https://github.com/MiguelElGallo/snowmcpaz) | Snowflake MCP with Azure auth | - | - | ✅ | ✅ |
@@ -101,4 +101,4 @@ Here are the repositories I maintain or contribute to:
 | [dvsat](https://github.com/MiguelElGallo/dvsat) | Data Vault extended satellite demo | - | - | ✅ | - |
 | [JoinOrAssociation](https://github.com/MiguelElGallo/JoinOrAssociation) | BI tool fan trap handling | - | - | ✅ | - |
 
-_Last updated: 2026-09-19_
+_Last updated: 2026-09-20_
