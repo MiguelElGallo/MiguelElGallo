@@ -28,24 +28,96 @@
 
 Some of my projects are also available through agent plugin marketplaces and Microsoft's Awesome AZD catalog:
 
-| Project | Where to find it | Quick start |
-| :------ | :--------------- | :---------- |
-| [iParq](https://github.com/MiguelElGallo/iparq) | [Codex and GitHub Copilot plugin marketplace](https://github.com/MiguelElGallo/iparq#install-as-an-agent-plugin), [VS Code source install](https://github.com/MiguelElGallo/iparq), [PyPI](https://pypi.org/project/iparq/), and [Homebrew](https://github.com/MiguelElGallo/homebrew-iparq) | `codex plugin marketplace add MiguelElGallo/iparq`<br>`codex plugin add iparq@iparq`<br>VS Code: **Chat: Install Plugin From Source** |
-| [md-to-pdf](https://github.com/MiguelElGallo/md-to-pdf) | [Codex and GitHub Copilot plugin marketplace](https://github.com/MiguelElGallo/md-to-pdf#install-as-an-agent-plugin), [VS Code source install](https://github.com/MiguelElGallo/md-to-pdf#vs-code), and [GitHub Releases](https://github.com/MiguelElGallo/md-to-pdf/releases/latest) | `codex plugin marketplace add MiguelElGallo/md-to-pdf`<br>`codex plugin add md-to-pdf@md-to-pdf`<br>VS Code: **Chat: Install Plugin From Source** |
-| [FastAPI + Snowflake on Azure Functions](https://github.com/MiguelElGallo/simple-fastapi-snow-azd) | [Awesome AZD catalog](https://azure.github.io/awesome-azd/templates/?name=snowflake) | `azd init --template MiguelElGallo/simple-fastapi-snow-azd` |
-| [Simple Streamlit on Azure App Service](https://github.com/MiguelElGallo/simple-streamlit-azd) | [Awesome AZD catalog](https://azure.github.io/awesome-azd/templates/?name=streamlit) | `azd init --template MiguelElGallo/simple-streamlit-azd` |
-| [FastMCP on Azure App Service](https://github.com/MiguelElGallo/myfirstmcp-openai) | [Awesome AZD catalog](https://azure.github.io/awesome-azd/templates/?name=fastmcp) | `azd init --template MiguelElGallo/myfirstmcp-openai` |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧩 <a href="https://github.com/MiguelElGallo/iparq">iParq</a></h3>
+      <p>Inspect Parquet metadata from your terminal or your coding agent.</p>
+      <p><a href="https://github.com/MiguelElGallo/iparq#install-as-an-agent-plugin"><img src="https://img.shields.io/badge/Codex%20%26%20Copilot-plugin-d6336c?style=flat-square&labelColor=1b1b2f" alt="Codex and GitHub Copilot plugin"></a> <a href="https://github.com/MiguelElGallo/iparq"><img src="https://img.shields.io/badge/VS%20Code-source%20install-2a9d8f?style=flat-square&labelColor=1b1b2f" alt="VS Code source install"></a> <a href="https://pypi.org/project/iparq/"><img src="https://img.shields.io/pypi/v/iparq?style=flat-square&labelColor=1b1b2f&color=ffb627&label=PyPI&logo=pypi&logoColor=white" alt="PyPI"></a> <a href="https://github.com/MiguelElGallo/homebrew-iparq"><img src="https://img.shields.io/badge/Homebrew-tap-f28c28?style=flat-square&labelColor=1b1b2f&logo=homebrew&logoColor=white" alt="Homebrew"></a></p>
+      <pre>codex plugin marketplace add MiguelElGallo/iparq
+codex plugin add iparq@iparq</pre>
+      <sub>VS Code: <b>Chat: Install Plugin From Source</b></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📄 <a href="https://github.com/MiguelElGallo/md-to-pdf">md-to-pdf</a></h3>
+      <p>Turn Markdown (with Mermaid diagrams) into polished PDFs.</p>
+      <p><a href="https://github.com/MiguelElGallo/md-to-pdf#install-as-an-agent-plugin"><img src="https://img.shields.io/badge/Codex%20%26%20Copilot-plugin-d6336c?style=flat-square&labelColor=1b1b2f" alt="Codex and GitHub Copilot plugin"></a> <a href="https://github.com/MiguelElGallo/md-to-pdf#vs-code"><img src="https://img.shields.io/badge/VS%20Code-source%20install-2a9d8f?style=flat-square&labelColor=1b1b2f" alt="VS Code source install"></a> <a href="https://github.com/MiguelElGallo/md-to-pdf/releases/latest"><img src="https://img.shields.io/github/v/release/MiguelElGallo/md-to-pdf?style=flat-square&labelColor=1b1b2f&color=ffb627&label=release" alt="GitHub Releases"></a></p>
+      <pre>codex plugin marketplace add MiguelElGallo/md-to-pdf
+codex plugin add md-to-pdf@md-to-pdf</pre>
+      <sub>VS Code: <b>Chat: Install Plugin From Source</b></sub>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <b>⚡ <a href="https://github.com/MiguelElGallo/simple-fastapi-snow-azd">FastAPI + Snowflake on Azure Functions</a></b>
+      <p><a href="https://azure.github.io/awesome-azd/templates/?name=snowflake"><img src="https://img.shields.io/badge/Awesome%20AZD-template-0078d4?style=flat-square&labelColor=1b1b2f&logo=microsoftazure&logoColor=white" alt="Awesome AZD catalog"></a></p>
+      <code>azd init --template MiguelElGallo/simple-fastapi-snow-azd</code>
+    </td>
+    <td width="33%" valign="top">
+      <b>📈 <a href="https://github.com/MiguelElGallo/simple-streamlit-azd">Simple Streamlit on Azure App Service</a></b>
+      <p><a href="https://azure.github.io/awesome-azd/templates/?name=streamlit"><img src="https://img.shields.io/badge/Awesome%20AZD-template-0078d4?style=flat-square&labelColor=1b1b2f&logo=microsoftazure&logoColor=white" alt="Awesome AZD catalog"></a></p>
+      <code>azd init --template MiguelElGallo/simple-streamlit-azd</code>
+    </td>
+    <td width="33%" valign="top">
+      <b>🤖 <a href="https://github.com/MiguelElGallo/myfirstmcp-openai">FastMCP on Azure App Service</a></b>
+      <p><a href="https://azure.github.io/awesome-azd/templates/?name=fastmcp"><img src="https://img.shields.io/badge/Awesome%20AZD-template-0078d4?style=flat-square&labelColor=1b1b2f&logo=microsoftazure&logoColor=white" alt="Awesome AZD catalog"></a></p>
+      <code>azd init --template MiguelElGallo/myfirstmcp-openai</code>
+    </td>
+  </tr>
+</table>
 
 ## 📼 LinkedIn video demos
 
 Press ▶ on a cover to watch the video. Each demo links to the repository behind it.
 
-| | |
-| :---: | :---: |
-| [<img src="assets/linkedin-videos/hellojev-thumbnail.png" width="320" alt="HelloJev video cover">](https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/hellojev.mp4)<br>**HelloJev: smarter pipeline failure decisions** · 42 sec<br>[▶ Watch video](https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/hellojev.mp4) · [Repository](https://github.com/MiguelElGallo/HelloJev) | |
-| [<img src="assets/linkedin-videos/tgrep-vscode-thumbnail.png" width="320" alt="tgrep for VS Code video cover">](https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/tgrep-vscode.mp4)<br>**tgrep for VS Code** · 24 sec<br>[▶ Watch video](https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/tgrep-vscode.mp4) · [Repository](https://github.com/MiguelElGallo/st) | [<img src="assets/linkedin-videos/tgrep-codex-thumbnail.png" width="320" alt="tgrep for Codex video cover">](https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/tgrep-codex.mp4)<br>**tgrep for Codex** · 24 sec<br>[▶ Watch video](https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/tgrep-codex.mp4) · [Repository](https://github.com/MiguelElGallo/st) |
-| [<img src="assets/linkedin-videos/docdr-thumbnail.png" width="320" alt="docdr video cover">](https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/docdr.mp4)<br>**docdr** · 28 sec<br>[▶ Watch video](https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/docdr.mp4) · [Repository](https://github.com/MiguelElGallo/docdr) | [<img src="assets/linkedin-videos/databricks-metric-view-thumbnail.png" width="320" alt="Databricks Metric View video cover">](https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/databricks-metric-view.mp4)<br>**Databricks Metric View** · 28 sec<br>[▶ Watch video](https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/databricks-metric-view.mp4) · [Repository](https://github.com/MiguelElGallo/skill-metric-view-dbr) |
-| [<img src="assets/linkedin-videos/agent-plugin-forge-thumbnail.png" width="320" alt="Agent Plugin Forge video cover">](https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/agent-plugin-forge.mp4)<br>**Agent Plugin Forge** · 38 sec<br>[▶ Watch video](https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/agent-plugin-forge.mp4) · [Repository](https://github.com/MiguelElGallo/agent-plugin-forge) | [<img src="assets/linkedin-videos/agent-plugin-forge-team-skills-thumbnail.png" width="320" alt="Agent Plugin Forge team skills video cover">](https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/agent-plugin-forge-team-skills.mp4)<br>**Team skills: one shared home** · 60 sec<br>[▶ Watch video](https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/agent-plugin-forge-team-skills.mp4) · [Repository](https://github.com/MiguelElGallo/agent-plugin-forge) |
+<table>
+  <tr>
+    <td colspan="2" align="center" valign="top">
+      <a href="https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/hellojev.mp4"><img src="assets/linkedin-videos/hellojev-thumbnail.png" width="340" alt="HelloJev video cover"></a><br>
+      <b>🆕 HelloJev: smarter pipeline failure decisions</b><br>
+      <sub>⏱ 42 sec · <a href="https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/hellojev.mp4">▶ Watch video</a> · <a href="https://github.com/MiguelElGallo/HelloJev">📦 Repository</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/tgrep-vscode.mp4"><img src="assets/linkedin-videos/tgrep-vscode-thumbnail.png" width="300" alt="tgrep for VS Code video cover"></a><br>
+      <b>tgrep for VS Code</b><br>
+      <sub>⏱ 24 sec · <a href="https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/tgrep-vscode.mp4">▶ Watch video</a> · <a href="https://github.com/MiguelElGallo/st">📦 Repository</a></sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/tgrep-codex.mp4"><img src="assets/linkedin-videos/tgrep-codex-thumbnail.png" width="300" alt="tgrep for Codex video cover"></a><br>
+      <b>tgrep for Codex</b><br>
+      <sub>⏱ 24 sec · <a href="https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/tgrep-codex.mp4">▶ Watch video</a> · <a href="https://github.com/MiguelElGallo/st">📦 Repository</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/docdr.mp4"><img src="assets/linkedin-videos/docdr-thumbnail.png" width="300" alt="docdr video cover"></a><br>
+      <b>docdr</b><br>
+      <sub>⏱ 28 sec · <a href="https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/docdr.mp4">▶ Watch video</a> · <a href="https://github.com/MiguelElGallo/docdr">📦 Repository</a></sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/databricks-metric-view.mp4"><img src="assets/linkedin-videos/databricks-metric-view-thumbnail.png" width="300" alt="Databricks Metric View video cover"></a><br>
+      <b>Databricks Metric View</b><br>
+      <sub>⏱ 28 sec · <a href="https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/databricks-metric-view.mp4">▶ Watch video</a> · <a href="https://github.com/MiguelElGallo/skill-metric-view-dbr">📦 Repository</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/agent-plugin-forge.mp4"><img src="assets/linkedin-videos/agent-plugin-forge-thumbnail.png" width="300" alt="Agent Plugin Forge video cover"></a><br>
+      <b>Agent Plugin Forge</b><br>
+      <sub>⏱ 38 sec · <a href="https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/agent-plugin-forge.mp4">▶ Watch video</a> · <a href="https://github.com/MiguelElGallo/agent-plugin-forge">📦 Repository</a></sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/agent-plugin-forge-team-skills.mp4"><img src="assets/linkedin-videos/agent-plugin-forge-team-skills-thumbnail.png" width="300" alt="Agent Plugin Forge team skills video cover"></a><br>
+      <b>Team skills: one shared home</b><br>
+      <sub>⏱ 60 sec · <a href="https://miguelelgallo.github.io/MiguelElGallo/assets/linkedin-videos/agent-plugin-forge-team-skills.mp4">▶ Watch video</a> · <a href="https://github.com/MiguelElGallo/agent-plugin-forge">📦 Repository</a></sub>
+    </td>
+  </tr>
+</table>
 
 <!-- The automated repository table updater preserves everything above the heading below. -->
 
@@ -55,68 +127,69 @@ Press ▶ on a cover to watch the video. Each demo links to the repository behin
 
 
 Here are the repositories I maintain or contribute to:
+<sub>🕹️ High-score table · sorted by stars, then latest push · 📊 data · 🤖 AI</sub>
 
-| Repository | Short Description | Python libraries | Azure services | Data? | AI? |
-| :--------- | :---------------- | :--------------- | :------------- | :---: | :-: |
-| [mpzsql](https://github.com/MiguelElGallo/mpzsql) ⭐28 | Arrow Flight SQL DuckDB lakehouse | azure-identity, duckdb, grpcio, pyarrow, pyjwt | Blob Storage, Container Apps, PostgreSQL | ✅ | - |
-| [iparq](https://github.com/MiguelElGallo/iparq) ⭐25 | Parquet metadata inspection CLI tool | pyarrow, pydantic, rich, typer | - | ✅ | - |
-| [modelando](https://github.com/MiguelElGallo/modelando) ⭐11 | Bilingual data modeling educational materials | - | - | ✅ | - |
-| [api-elt](https://github.com/MiguelElGallo/api-elt) ⭐9 | ELT pipeline connecting APIs to databases | dlt, python-dotenv | - | ✅ | - |
-| [azquack](https://github.com/MiguelElGallo/azquack) ⭐6 | DuckDB Quack protocol on Azure | duckdb | Blob Storage, Container Apps | ✅ | - |
-| [snowflake-semantic-view-skill](https://github.com/MiguelElGallo/snowflake-semantic-view-skill) ⭐6 | Snowflake semantic view creation skill | - | - | ✅ | ✅ |
-| [FastAPI-in-Snowflake](https://github.com/MiguelElGallo/FastAPI-in-Snowflake) ⭐4 | FastAPI in Snowflake container services | fastapi, passlib, python-jose, snowflake-connector-python, uvicorn | - | ✅ | - |
-| [SynapseApacheIceBergExperiment](https://github.com/MiguelElGallo/SynapseApacheIceBergExperiment) ⭐4 | Apache Iceberg on Synapse Spark | - | Synapse Analytics | ✅ | - |
-| [evsnow](https://github.com/MiguelElGallo/evsnow) ⭐3 | Event Hubs to Snowflake streaming | azure-eventhub, azure-identity, pydantic-ai, snowflake-connector-python | Event Hubs | ✅ | ✅ |
-| [simple-streamlit-azd](https://github.com/MiguelElGallo/simple-streamlit-azd) ⭐3 | Streamlit on Azure App Service | numpy, pandas, streamlit | App Service | ✅ | - |
-| [sensormatrix](https://github.com/MiguelElGallo/sensormatrix) ⭐1 | ESP32 sensor testing and regression | pydantic, pyserial, pyyaml, typer | - | ✅ | - |
-| [snapshottest](https://github.com/MiguelElGallo/snapshottest) ⭐1 | Inline snapshot testing demonstration | httpx, inline-snapshot, rich, typer | - | - | - |
-| [ragsql](https://github.com/MiguelElGallo/ragsql) ⭐1 | RAG-powered SQL query generation | langchain, openai, snowflake-connector-python | - | ✅ | ✅ |
-| [HelloJev](https://github.com/MiguelElGallo/HelloJev) | Pipeline failure recommendations with TypeSafe JEV | - | - | ✅ | ✅ |
-| [RioArriba](https://github.com/MiguelElGallo/RioArriba) | River shooter arcade game | - | - | - | - |
-| [st](https://github.com/MiguelElGallo/st) | Token saver for exploring repositories | - | - | - | - |
-| [md-to-pdf](https://github.com/MiguelElGallo/md-to-pdf) | Markdown to PDF with Mermaid support | - | - | - | - |
-| [agent-plugin-forge](https://github.com/MiguelElGallo/agent-plugin-forge) | Agent Skills to validated Plugins | jsonschema, license-expression, pydantic, pyyaml, semantic-version | - | - | ✅ |
-| [docdr](https://github.com/MiguelElGallo/docdr) | Documentation doctor agent skill | - | - | - | ✅ |
-| [bricksgdpr](https://github.com/MiguelElGallo/bricksgdpr) | Databricks dbt GDPR demonstration | dbt-core, dbt-databricks | - | ✅ | - |
-| [homebrew-iparq](https://github.com/MiguelElGallo/homebrew-iparq) | Homebrew tap for iparq CLI | - | - | - | - |
-| [dbtobsb](https://github.com/MiguelElGallo/dbtobsb) | dbt Core observability for Databricks | - | - | ✅ | - |
-| [skill-metric-view-dbr](https://github.com/MiguelElGallo/skill-metric-view-dbr) | Databricks metric view creation skill | - | - | ✅ | ✅ |
-| [Modelando2025](https://github.com/MiguelElGallo/Modelando2025) | Data modeling concepts 2025 edition | mkdocs-material, mkdocs-git-committers-plugin, mkdocs-i18n | - | ✅ | - |
-| [api-test-pilot](https://github.com/MiguelElGallo/api-test-pilot) | Contract-driven API test generation | httpx, jsonschema, pydantic, pyyaml, typer | - | - | ✅ |
-| [azure-ducklake-quack](https://github.com/MiguelElGallo/azure-ducklake-quack) | Azure-native DuckLake with Entra routing | - | Container Apps, PostgreSQL | ✅ | - |
-| [evbricks](https://github.com/MiguelElGallo/evbricks) | Event Hubs to Databricks streaming | aiohttp, azure-eventhub, azure-identity, databricks-zerobus-ingest-sdk | Event Hubs | ✅ | - |
-| [bricks-cli](https://github.com/MiguelElGallo/bricks-cli) | dbt on Databricks with CLI | - | - | ✅ | - |
-| [codemode](https://github.com/MiguelElGallo/codemode) | Code Mode vs MCP comparison | mcp, pydantic | - | - | ✅ |
-| [neoquack](https://github.com/MiguelElGallo/neoquack) | DuckDB Quack on free tiers | duckdb, fastapi, httpx, psycopg | - | ✅ | - |
-| [SnowflakeCortexCLI](https://github.com/MiguelElGallo/SnowflakeCortexCLI) | Single-role Snowflake Cortex CLI setup | - | - | ✅ | ✅ |
-| [snowdag](https://github.com/MiguelElGallo/snowdag) | Airflow dbt in Snowflake containers | - | - | ✅ | - |
-| [fastapi-free](https://github.com/MiguelElGallo/fastapi-free) | FastAPI free-threading benchmark | fastapi, prometheus-client, uvicorn | - | - | - |
-| [ir-support-site](https://github.com/MiguelElGallo/ir-support-site) | iOS app support site | - | - | - | - |
-| [snow_iceberg_snowstorage](https://github.com/MiguelElGallo/snow_iceberg_snowstorage) | Snowflake Iceberg with DuckDB demo | - | - | ✅ | - |
-| [snowmcpaz](https://github.com/MiguelElGallo/snowmcpaz) | Snowflake MCP with Azure auth | - | - | ✅ | ✅ |
-| [jwtaztoken](https://github.com/MiguelElGallo/jwtaztoken) | Azure JWT token inspector CLI | cryptography, httpx, pyjwt, rich, typer | - | - | - |
-| [dlthubarrow](https://github.com/MiguelElGallo/dlthubarrow) | dlt Arrow mode on Azure | azure-monitor-opentelemetry, dlt, psutil, pyarrow, snowflake-connector-python | Container Apps, Key Vault | ✅ | - |
-| [snowdcm](https://github.com/MiguelElGallo/snowdcm) | Snowflake DCM objects demonstration | - | - | ✅ | - |
-| [dlthubsnow](https://github.com/MiguelElGallo/dlthubsnow) | dlt in Snowflake containers | dlt, requests | - | ✅ | - |
-| [Arrow_as_source](https://github.com/MiguelElGallo/Arrow_as_source) | Arrow as universal dataset | arrow, duckdb, polars, pyarrow | - | ✅ | - |
-| [ghs](https://github.com/MiguelElGallo/ghs) | Sync env files with GitHub | pydantic, python-dotenv, typer | - | - | - |
-| [myfirstmcp-openai](https://github.com/MiguelElGallo/myfirstmcp-openai) | FastMCP on Azure App Service | gunicorn, mcp, uvicorn | App Service | - | ✅ |
-| [CallAPIfromLLM](https://github.com/MiguelElGallo/CallAPIfromLLM) | LLM API calling demonstration | - | - | - | ✅ |
-| [snowtofu](https://github.com/MiguelElGallo/snowtofu) | Snowflake with OpenTofu IaC | - | Storage Account | ✅ | - |
-| [simple-fastapi-snow-azd](https://github.com/MiguelElGallo/simple-fastapi-snow-azd) | FastAPI Snowflake on Azure Functions | fastapi, snowflake-sqlalchemy | Functions | ✅ | - |
-| [embeddindataengineering](https://github.com/MiguelElGallo/embeddindataengineering) | OpenAI embeddings in Fabric | - | - | ✅ | ✅ |
-| [mycv](https://github.com/MiguelElGallo/mycv) | Personal CV repository | - | - | - | - |
-| [dltHub-teesting](https://github.com/MiguelElGallo/dltHub-teesting) | dltHub pytest testing | dlt, duckdb, mypy, pytest | - | ✅ | - |
-| [ChartToMD](https://github.com/MiguelElGallo/ChartToMD) | Chart to markdown for RAG | aiohttp, azure-identity, pydantic, typer | - | - | ✅ |
-| [SnowCLI](https://github.com/MiguelElGallo/SnowCLI) | Snowflake CLI with GitHub Actions | - | - | ✅ | - |
-| [rag-graph](https://github.com/MiguelElGallo/rag-graph) | Graph approaches for RAG testing | - | - | - | ✅ |
-| [opeanai-rag-test](https://github.com/MiguelElGallo/opeanai-rag-test) | OpenAI RAG Spanish document testing | openai, python-dotenv | - | - | ✅ |
-| [ragvectordb](https://github.com/MiguelElGallo/ragvectordb) | Embeddings in multiple vector databases | - | AI Search | ✅ | ✅ |
-| [azdcodespaces](https://github.com/MiguelElGallo/azdcodespaces) | AZD in Codespaces configuration | - | - | - | - |
-| [azureaisearch](https://github.com/MiguelElGallo/azureaisearch) | Azure AI Search embeddings demo | - | AI Search | - | ✅ |
-| [azopenai_adx](https://github.com/MiguelElGallo/azopenai_adx) | Azure Data Explorer embeddings storage | - | Data Explorer | ✅ | ✅ |
-| [semker](https://github.com/MiguelElGallo/semker) | Semantic Kernel Python examples | semantic-kernel | - | - | ✅ |
-| [dvsat](https://github.com/MiguelElGallo/dvsat) | Data Vault extended satellite demo | - | - | ✅ | - |
-| [JoinOrAssociation](https://github.com/MiguelElGallo/JoinOrAssociation) | BI tool fan trap handling | - | - | ✅ | - |
+| # | Repository | ⭐ | What it does | 🐍 Python libraries | ☁️ Azure services | Tags |
+| :-: | :-- | :-: | :-- | :-- | :-- | :-: |
+| 🥇 | **[mpzsql](https://github.com/MiguelElGallo/mpzsql)** | 28 | Arrow Flight SQL DuckDB lakehouse | `azure-identity` `duckdb` `grpcio` `pyarrow` `pyjwt` | Blob Storage, Container Apps, PostgreSQL | 📊 |
+| 🥈 | **[iparq](https://github.com/MiguelElGallo/iparq)** | 25 | Parquet metadata inspection CLI tool | `pyarrow` `pydantic` `rich` `typer` | - | 📊 |
+| 🥉 | **[modelando](https://github.com/MiguelElGallo/modelando)** | 11 | Bilingual data modeling educational materials | - | - | 📊 |
+| 04 | **[api-elt](https://github.com/MiguelElGallo/api-elt)** | 9 | ELT pipeline connecting APIs to databases | `dlt` `python-dotenv` | - | 📊 |
+| 05 | **[azquack](https://github.com/MiguelElGallo/azquack)** | 6 | DuckDB Quack protocol on Azure | `duckdb` | Blob Storage, Container Apps | 📊 |
+| 06 | **[snowflake-semantic-view-skill](https://github.com/MiguelElGallo/snowflake-semantic-view-skill)** | 6 | Snowflake semantic view creation skill | - | - | 📊 🤖 |
+| 07 | **[FastAPI-in-Snowflake](https://github.com/MiguelElGallo/FastAPI-in-Snowflake)** | 4 | FastAPI in Snowflake container services | `fastapi` `passlib` `python-jose` `snowflake-connector-python` `uvicorn` | - | 📊 |
+| 08 | **[SynapseApacheIceBergExperiment](https://github.com/MiguelElGallo/SynapseApacheIceBergExperiment)** | 4 | Apache Iceberg on Synapse Spark | - | Synapse Analytics | 📊 |
+| 09 | **[evsnow](https://github.com/MiguelElGallo/evsnow)** | 3 | Event Hubs to Snowflake streaming | `azure-eventhub` `azure-identity` `pydantic-ai` `snowflake-connector-python` | Event Hubs | 📊 🤖 |
+| 10 | **[simple-streamlit-azd](https://github.com/MiguelElGallo/simple-streamlit-azd)** | 3 | Streamlit on Azure App Service | `numpy` `pandas` `streamlit` | App Service | 📊 |
+| 11 | **[sensormatrix](https://github.com/MiguelElGallo/sensormatrix)** | 1 | ESP32 sensor testing and regression | `pydantic` `pyserial` `pyyaml` `typer` | - | 📊 |
+| 12 | **[snapshottest](https://github.com/MiguelElGallo/snapshottest)** | 1 | Inline snapshot testing demonstration | `httpx` `inline-snapshot` `rich` `typer` | - | - |
+| 13 | **[ragsql](https://github.com/MiguelElGallo/ragsql)** | 1 | RAG-powered SQL query generation | `langchain` `openai` `snowflake-connector-python` | - | 📊 🤖 |
+| 14 | **[HelloJev](https://github.com/MiguelElGallo/HelloJev)** | - | Pipeline failure recommendations with TypeSafe JEV | - | - | 📊 🤖 |
+| 15 | **[RioArriba](https://github.com/MiguelElGallo/RioArriba)** | - | River shooter arcade game | - | - | - |
+| 16 | **[st](https://github.com/MiguelElGallo/st)** | - | Token saver for exploring repositories | - | - | - |
+| 17 | **[md-to-pdf](https://github.com/MiguelElGallo/md-to-pdf)** | - | Markdown to PDF with Mermaid support | - | - | - |
+| 18 | **[agent-plugin-forge](https://github.com/MiguelElGallo/agent-plugin-forge)** | - | Agent Skills to validated Plugins | `jsonschema` `license-expression` `pydantic` `pyyaml` `semantic-version` | - | 🤖 |
+| 19 | **[docdr](https://github.com/MiguelElGallo/docdr)** | - | Documentation doctor agent skill | - | - | 🤖 |
+| 20 | **[bricksgdpr](https://github.com/MiguelElGallo/bricksgdpr)** | - | Databricks dbt GDPR demonstration | `dbt-core` `dbt-databricks` | - | 📊 |
+| 21 | **[homebrew-iparq](https://github.com/MiguelElGallo/homebrew-iparq)** | - | Homebrew tap for iparq CLI | - | - | - |
+| 22 | **[dbtobsb](https://github.com/MiguelElGallo/dbtobsb)** | - | dbt Core observability for Databricks | - | - | 📊 |
+| 23 | **[skill-metric-view-dbr](https://github.com/MiguelElGallo/skill-metric-view-dbr)** | - | Databricks metric view creation skill | - | - | 📊 🤖 |
+| 24 | **[Modelando2025](https://github.com/MiguelElGallo/Modelando2025)** | - | Data modeling concepts 2025 edition | `mkdocs-material` `mkdocs-git-committers-plugin` `mkdocs-i18n` | - | 📊 |
+| 25 | **[api-test-pilot](https://github.com/MiguelElGallo/api-test-pilot)** | - | Contract-driven API test generation | `httpx` `jsonschema` `pydantic` `pyyaml` `typer` | - | 🤖 |
+| 26 | **[azure-ducklake-quack](https://github.com/MiguelElGallo/azure-ducklake-quack)** | - | Azure-native DuckLake with Entra routing | - | Container Apps, PostgreSQL | 📊 |
+| 27 | **[evbricks](https://github.com/MiguelElGallo/evbricks)** | - | Event Hubs to Databricks streaming | `aiohttp` `azure-eventhub` `azure-identity` `databricks-zerobus-ingest-sdk` | Event Hubs | 📊 |
+| 28 | **[bricks-cli](https://github.com/MiguelElGallo/bricks-cli)** | - | dbt on Databricks with CLI | - | - | 📊 |
+| 29 | **[codemode](https://github.com/MiguelElGallo/codemode)** | - | Code Mode vs MCP comparison | `mcp` `pydantic` | - | 🤖 |
+| 30 | **[neoquack](https://github.com/MiguelElGallo/neoquack)** | - | DuckDB Quack on free tiers | `duckdb` `fastapi` `httpx` `psycopg` | - | 📊 |
+| 31 | **[SnowflakeCortexCLI](https://github.com/MiguelElGallo/SnowflakeCortexCLI)** | - | Single-role Snowflake Cortex CLI setup | - | - | 📊 🤖 |
+| 32 | **[snowdag](https://github.com/MiguelElGallo/snowdag)** | - | Airflow dbt in Snowflake containers | - | - | 📊 |
+| 33 | **[fastapi-free](https://github.com/MiguelElGallo/fastapi-free)** | - | FastAPI free-threading benchmark | `fastapi` `prometheus-client` `uvicorn` | - | - |
+| 34 | **[ir-support-site](https://github.com/MiguelElGallo/ir-support-site)** | - | iOS app support site | - | - | - |
+| 35 | **[snow_iceberg_snowstorage](https://github.com/MiguelElGallo/snow_iceberg_snowstorage)** | - | Snowflake Iceberg with DuckDB demo | - | - | 📊 |
+| 36 | **[snowmcpaz](https://github.com/MiguelElGallo/snowmcpaz)** | - | Snowflake MCP with Azure auth | - | - | 📊 🤖 |
+| 37 | **[jwtaztoken](https://github.com/MiguelElGallo/jwtaztoken)** | - | Azure JWT token inspector CLI | `cryptography` `httpx` `pyjwt` `rich` `typer` | - | - |
+| 38 | **[dlthubarrow](https://github.com/MiguelElGallo/dlthubarrow)** | - | dlt Arrow mode on Azure | `azure-monitor-opentelemetry` `dlt` `psutil` `pyarrow` `snowflake-connector-python` | Container Apps, Key Vault | 📊 |
+| 39 | **[snowdcm](https://github.com/MiguelElGallo/snowdcm)** | - | Snowflake DCM objects demonstration | - | - | 📊 |
+| 40 | **[dlthubsnow](https://github.com/MiguelElGallo/dlthubsnow)** | - | dlt in Snowflake containers | `dlt` `requests` | - | 📊 |
+| 41 | **[Arrow_as_source](https://github.com/MiguelElGallo/Arrow_as_source)** | - | Arrow as universal dataset | `arrow` `duckdb` `polars` `pyarrow` | - | 📊 |
+| 42 | **[ghs](https://github.com/MiguelElGallo/ghs)** | - | Sync env files with GitHub | `pydantic` `python-dotenv` `typer` | - | - |
+| 43 | **[myfirstmcp-openai](https://github.com/MiguelElGallo/myfirstmcp-openai)** | - | FastMCP on Azure App Service | `gunicorn` `mcp` `uvicorn` | App Service | 🤖 |
+| 44 | **[CallAPIfromLLM](https://github.com/MiguelElGallo/CallAPIfromLLM)** | - | LLM API calling demonstration | - | - | 🤖 |
+| 45 | **[snowtofu](https://github.com/MiguelElGallo/snowtofu)** | - | Snowflake with OpenTofu IaC | - | Storage Account | 📊 |
+| 46 | **[simple-fastapi-snow-azd](https://github.com/MiguelElGallo/simple-fastapi-snow-azd)** | - | FastAPI Snowflake on Azure Functions | `fastapi` `snowflake-sqlalchemy` | Functions | 📊 |
+| 47 | **[embeddindataengineering](https://github.com/MiguelElGallo/embeddindataengineering)** | - | OpenAI embeddings in Fabric | - | - | 📊 🤖 |
+| 48 | **[mycv](https://github.com/MiguelElGallo/mycv)** | - | Personal CV repository | - | - | - |
+| 49 | **[dltHub-teesting](https://github.com/MiguelElGallo/dltHub-teesting)** | - | dltHub pytest testing | `dlt` `duckdb` `mypy` `pytest` | - | 📊 |
+| 50 | **[ChartToMD](https://github.com/MiguelElGallo/ChartToMD)** | - | Chart to markdown for RAG | `aiohttp` `azure-identity` `pydantic` `typer` | - | 🤖 |
+| 51 | **[SnowCLI](https://github.com/MiguelElGallo/SnowCLI)** | - | Snowflake CLI with GitHub Actions | - | - | 📊 |
+| 52 | **[rag-graph](https://github.com/MiguelElGallo/rag-graph)** | - | Graph approaches for RAG testing | - | - | 🤖 |
+| 53 | **[opeanai-rag-test](https://github.com/MiguelElGallo/opeanai-rag-test)** | - | OpenAI RAG Spanish document testing | `openai` `python-dotenv` | - | 🤖 |
+| 54 | **[ragvectordb](https://github.com/MiguelElGallo/ragvectordb)** | - | Embeddings in multiple vector databases | - | AI Search | 📊 🤖 |
+| 55 | **[azdcodespaces](https://github.com/MiguelElGallo/azdcodespaces)** | - | AZD in Codespaces configuration | - | - | - |
+| 56 | **[azureaisearch](https://github.com/MiguelElGallo/azureaisearch)** | - | Azure AI Search embeddings demo | - | AI Search | 🤖 |
+| 57 | **[azopenai_adx](https://github.com/MiguelElGallo/azopenai_adx)** | - | Azure Data Explorer embeddings storage | - | Data Explorer | 📊 🤖 |
+| 58 | **[semker](https://github.com/MiguelElGallo/semker)** | - | Semantic Kernel Python examples | `semantic-kernel` | - | 🤖 |
+| 59 | **[dvsat](https://github.com/MiguelElGallo/dvsat)** | - | Data Vault extended satellite demo | - | - | 📊 |
+| 60 | **[JoinOrAssociation](https://github.com/MiguelElGallo/JoinOrAssociation)** | - | BI tool fan trap handling | - | - | 📊 |
 
 _💾 Last saved: 2026-09-20_

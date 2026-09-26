@@ -10,6 +10,9 @@ import pytest
 
 from src.pixel_art import ASSETS_DIR, render_all
 from src.tools import (
+    DISPLAY_HEADER,
+    DISPLAY_SEPARATOR,
+    LEGEND,
     REPOSITORY_SECTION_HEADING,
     TABLE_HEADER,
     TABLE_SEPARATOR,
@@ -19,10 +22,14 @@ from src.tools import (
     list_repos,
     preserve_manual_prefix,
     read_current_readme,
+    render_display_row,
     write_readme,
 )
 
-VALID_ROW = "| [demo](https://github.com/user/demo) ⭐3 | Demo tool | typer | - | ✅ | - |"
+VALID_ROW = "| [demo](https://github.com/user/demo) ⭐3 | Demo tool | typer, rich | - | ✅ | - |"
+DISPLAY_ROW = (
+    "| 🥇 | **[demo](https://github.com/user/demo)** | 3 | Demo tool | `typer` `rich` | - | 📊 |"
+)
 
 
 class TestReadWriteReadme:
@@ -47,8 +54,9 @@ class TestReadWriteReadme:
             result = write_readme(str(tmp_path), generated)
         assert "written successfully" in result
         assert readme.read_text(encoding="utf-8") == (
-            f"# Profile\n\nManual showcase\n\n{REPOSITORY_SECTION_HEADING}\n\n"
-            f"{TABLE_HEADER}\n{TABLE_SEPARATOR}\n{VALID_ROW}\n\n_💾 Last saved: 2026-01-04_\n"
+            f"# Profile\n\nManual showcase\n\n{REPOSITORY_SECTION_HEADING}\n{LEGEND}\n\n"
+            f"{DISPLAY_HEADER}\n{DISPLAY_SEPARATOR}\n{DISPLAY_ROW}\n\n"
+            "_💾 Last saved: 2026-01-04_\n"
         )
 
     def test_write_readme_rejects_malformed_table_and_keeps_file(self, tmp_path: Path) -> None:
@@ -118,7 +126,7 @@ class TestRepositoryRows:
         )
 
     def test_normalizes_spacing(self) -> None:
-        messy = "|[demo](https://github.com/user/demo) ⭐3|Demo tool| typer |-|✅|-|"
+        messy = "|[demo](https://github.com/user/demo) ⭐3|Demo tool| typer, rich |-|✅|-|"
         assert extract_repository_rows(self._section(messy)) == [VALID_ROW]
 
     @pytest.mark.parametrize(
@@ -145,6 +153,26 @@ class TestRepositoryRows:
             extract_repository_rows(self._section())
         with pytest.raises(ValueError, match="duplicate"):
             extract_repository_rows(self._section(VALID_ROW, VALID_ROW))
+
+    def test_rejects_same_url_with_different_labels(self) -> None:
+        other = VALID_ROW.replace("[demo]", "[renamed]").replace("/demo)", "/Demo)")
+        with pytest.raises(ValueError, match="duplicate repository: https://github.com/user/demo"):
+            extract_repository_rows(self._section(VALID_ROW, other))
+
+    def test_display_rows_round_trip(self) -> None:
+        plain = [
+            VALID_ROW,
+            "| [b](https://github.com/user/b) ⭐2 | B | - | Functions | - | ✅ |",
+            "| [c](https://github.com/user/c) ⭐1 | C | x | - | ✅ | ✅ |",
+            "| [d](https://github.com/user/d) | D | - | - | - | - |",
+        ]
+        rendered = [render_display_row(row, i) for i, row in enumerate(plain)]
+        assert rendered[0] == DISPLAY_ROW
+        assert rendered[1].startswith("| 🥈 |") and rendered[1].endswith("| 🤖 |")
+        assert rendered[2].endswith("| 📊 🤖 |")
+        assert rendered[3] == "| 04 | **[d](https://github.com/user/d)** | - | D | - | - | - |"
+        section = f"{REPOSITORY_SECTION_HEADING}\n\n{DISPLAY_HEADER}\n{DISPLAY_SEPARATOR}\n"
+        assert extract_repository_rows(section + "\n".join(rendered)) == plain
 
 
 class TestPublishedReadme:

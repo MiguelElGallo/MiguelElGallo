@@ -49,9 +49,19 @@ table th {
   color: #fff;
 }
 
-table img {
+img[src*="thumbnail"] {
   border: 3px solid $pixel-ink;
   box-shadow: 4px 4px 0 $pixel-sky;
+}
+
+td h3 {
+  font-size: 0.8rem;
+  margin-top: 0.5em;
+}
+
+td pre {
+  border: 2px solid $pixel-ink;
+  border-radius: 0;
 }
 
 code {
