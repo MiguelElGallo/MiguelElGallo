@@ -1,0 +1,70 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Light 8-bit touch on top of the default GitHub Pages theme.
+$pixel-ink: #1b1b2f;
+$pixel-sky: #8fc1e8;
+$pixel-accent: #d6336c;
+
+body {
+  background: #f3faff;
+}
+
+.container-lg {
+  background: #fff;
+  border: 4px solid $pixel-ink;
+  box-shadow: 8px 8px 0 $pixel-sky;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+h1, h2, h3 {
+  font-family: "Press Start 2P", ui-monospace, monospace;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+h2 {
+  font-size: 1.05rem;
+  border-bottom: 4px dashed $pixel-sky;
+  padding-bottom: 0.5em;
+}
+
+img[src$=".svg"] {
+  image-rendering: pixelated;
+}
+
+a {
+  color: $pixel-accent;
+}
+
+table {
+  border: 3px solid $pixel-ink;
+}
+
+table th {
+  background: $pixel-ink;
+  color: #fff;
+}
+
+table img {
+  border: 3px solid $pixel-ink;
+  box-shadow: 4px 4px 0 $pixel-sky;
+}
+
+code {
+  border-radius: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #0b1026;
+  }
+
+  .container-lg {
+    border-color: #b8c4ff;
+    box-shadow: 8px 8px 0 #3a4a86;
+  }
+}

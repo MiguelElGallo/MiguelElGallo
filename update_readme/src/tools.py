@@ -4,11 +4,22 @@ from __future__ import annotations
 
 import base64
 import json
+import re
 import subprocess
 from datetime import UTC
 from pathlib import Path
 
 REPOSITORY_SECTION_HEADING = "Here are the repositories I maintain or contribute to:"
+TABLE_HEADER = (
+    "| Repository | Short Description | Python libraries | Azure services | Data? | AI? |"
+)
+TABLE_SEPARATOR = (
+    "| :--------- | :---------------- | :--------------- | :------------- | :---: | :-: |"
+)
+FOOTER_TEMPLATE = "_💾 Last saved: {date}_"
+TABLE_COLUMNS = 6
+_REPO_CELL = re.compile(r"^\[[^\[\]|]+\]\(https://github\.com/[\w.-]+/[\w.-]+\)( ⭐\d+)?$")
+_FLAG_VALUES = {"✅", "-"}
 
 
 def _gh_api(endpoint: str) -> dict | list:
@@ -103,12 +114,18 @@ def read_current_readme(repo_path: str) -> str:
 
 
 def write_readme(repo_path: str, content: str) -> str:
-    """Write the generated repository section while preserving the manual prefix."""
+    """Write the generated repository table while preserving the manual prefix.
+
+    Only the table rows are taken from ``content``; the rest of the generated section
+    (heading, table header, footer) is rebuilt so the page layout cannot drift.
+    """
     readme_path = Path(repo_path) / "README.md"
     current_content = readme_path.read_text(encoding="utf-8")
-    merged_content = preserve_manual_prefix(current_content, content)
+    rows = extract_repository_rows(content)
+    section = build_repository_section(rows, get_current_date())
+    merged_content = preserve_manual_prefix(current_content, section)
     readme_path.write_text(merged_content, encoding="utf-8")
-    return f"README.md written successfully ({len(merged_content)} chars)"
+    return f"README.md written successfully ({len(rows)} repositories, {len(merged_content)} chars)"
 
 
 def preserve_manual_prefix(current_content: str, generated_content: str) -> str:
@@ -124,6 +141,67 @@ def preserve_manual_prefix(current_content: str, generated_content: str) -> str:
         raise ValueError(msg)
 
     return current_content[:current_heading_index] + generated_content[generated_heading_index:]
+
+
+def validate_repository_row(line: str) -> str:
+    """Return a normalized table row or raise ``ValueError`` explaining the problem."""
+    stripped = line.strip()
+    if not (stripped.startswith("|") and stripped.endswith("|")):
+        raise ValueError(f"Table row must start and end with '|': {line!r}")
+    cells = [cell.strip() for cell in stripped[1:-1].split("|")]
+    if len(cells) != TABLE_COLUMNS:
+        msg = f"Table row must have {TABLE_COLUMNS} columns (no '|' inside cells): {line!r}"
+        raise ValueError(msg)
+    if any(not cell for cell in cells):
+        raise ValueError(f"Table cells must not be empty (use '-'): {line!r}")
+    if not _REPO_CELL.match(cells[0]):
+        msg = f"First cell must be '[name](https://github.com/owner/name)' + optional ⭐N: {line!r}"
+        raise ValueError(msg)
+    if cells[4] not in _FLAG_VALUES or cells[5] not in _FLAG_VALUES:
+        raise ValueError(f"Data?/AI? cells must be '✅' or '-': {line!r}")
+    if any(token in stripped for token in ("<", ">", "`")):
+        raise ValueError(f"Table rows must not contain HTML or code: {line!r}")
+    return "| " + " | ".join(cells) + " |"
+
+
+def extract_repository_rows(generated_content: str) -> list[str]:
+    """Extract and validate the repository table rows from the model's output."""
+    heading_index = generated_content.find(REPOSITORY_SECTION_HEADING)
+    if heading_index == -1:
+        msg = f"Generated README is missing boundary: {REPOSITORY_SECTION_HEADING!r}"
+        raise ValueError(msg)
+    lines = generated_content[heading_index:].splitlines()
+    try:
+        separator_index = next(
+            i for i, line in enumerate(lines) if line.strip().startswith("| :---")
+        )
+    except StopIteration:
+        raise ValueError("Generated README is missing the repository table") from None
+    if separator_index == 0 or not lines[separator_index - 1].strip().startswith("| Repository"):
+        raise ValueError("Generated table header must start with '| Repository'")
+
+    rows: list[str] = []
+    table_ended = False
+    for line in lines[separator_index + 1 :]:
+        if not table_ended and line.strip().startswith("|"):
+            rows.append(validate_repository_row(line))
+            continue
+        table_ended = True
+        if "|" in line:
+            raise ValueError(f"Table row must start and end with '|': {line!r}")
+    if not rows:
+        raise ValueError("Generated repository table has no rows")
+    names = [row.split("](", 1)[0] for row in rows]
+    if len(set(names)) != len(names):
+        raise ValueError("Generated repository table contains duplicate repositories")
+    return rows
+
+
+def build_repository_section(rows: list[str], date: str) -> str:
+    """Build the canonical generated section of the README."""
+    table = "\n".join([TABLE_HEADER, TABLE_SEPARATOR, *rows])
+    footer = FOOTER_TEMPLATE.format(date=date)
+    return f"{REPOSITORY_SECTION_HEADING}\n\n{table}\n\n{footer}\n"
 
 
 def get_current_date() -> str:
