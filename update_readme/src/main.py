@@ -42,8 +42,9 @@ Your job:
    - Keep EVERYTHING before the line "Here are the repositories"
      EXACTLY as-is, character for character. This includes the heading,
      social-media badge links (LinkedIn, YouTube, etc.), and all intro
-     paragraphs, the Featured projects table, the LinkedIn video demos
-     showcase, and all of their links and commands.
+     paragraphs, the 8-bit banner and player card images, the Featured
+     projects cards, the LinkedIn video demos showcase, and all of their
+     links and commands.
      Do NOT remove, reorder, or modify any of them. The write tool also
      enforces this boundary and will reject output that omits it.
    - Update the repository table with:
@@ -62,8 +63,15 @@ Your job:
        reporting, data modeling, ETL/ELT, parquet, arrow)
      - AI? ✅ if AI-related (LLMs, RAG, embeddings, agents,
        ML, OpenAI)
-   - Add at the end: `_Last updated: YYYY-MM-DD_` via `get_current_date`
+   - Do NOT add a footer or any text after the table; the write tool adds
+     the "Last saved" footer automatically.
 5. Call `write_readme` with the complete updated README.md content.
+   The write tool validates every table row and rejects malformed output
+   with an explanation; if that happens, fix the rows and call it again.
+
+The README displays the table as a decorated "high-score" table (medals,
+separate star column, code-formatted libraries, emoji tags). That decoration
+is rendered automatically: ALWAYS output the plain table format below.
 
 Table format (markdown):
 | Repository | Short Description | Python libraries | Azure services | Data? | AI? |
@@ -73,9 +81,10 @@ Table format (markdown):
 IMPORTANT: Process ALL repos from list_repos, do NOT skip any.
 IMPORTANT: Keep EVERYTHING before "Here are the repositories" UNCHANGED,
   including the heading, social-media badges (LinkedIn, YouTube, etc.),
-  all intro text, the Featured projects table, and the LinkedIn video demos
+  all intro text, the Featured projects cards, and the LinkedIn video demos
   showcase. Copy them verbatim.
 IMPORTANT: Use - (dash) for columns with no value.
+IMPORTANT: Never use "|", HTML tags, or backticks inside table cells.
 IMPORTANT: The Short Description must be derived from the repo README
   content. Keep it concise (5-10 words). Do NOT leave it empty.
 """

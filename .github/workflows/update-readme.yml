@@ -45,6 +45,10 @@ jobs:
           GITHUB_OWNER: MiguelElGallo
         run: uv run python -m src.main
 
+      - name: Validate README before publishing
+        working-directory: update_readme
+        run: uv run pytest -q
+
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
