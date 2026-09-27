@@ -132,64 +132,64 @@ Here are the repositories I maintain or contribute to:
 | # | Repository | ⭐ | What it does | 🐍 Python libraries | ☁️ Azure services | Tags |
 | :-: | :-- | :-: | :-- | :-- | :-- | :-: |
 | 🥇 | **[mpzsql](https://github.com/MiguelElGallo/mpzsql)** | 28 | Arrow Flight SQL DuckDB lakehouse | `azure-identity` `duckdb` `grpcio` `pyarrow` `pyjwt` | Blob Storage, Container Apps, PostgreSQL | 📊 |
-| 🥈 | **[iparq](https://github.com/MiguelElGallo/iparq)** | 25 | Parquet metadata inspection CLI tool | `pyarrow` `pydantic` `rich` `typer` | - | 📊 |
-| 🥉 | **[modelando](https://github.com/MiguelElGallo/modelando)** | 11 | Bilingual data modeling educational materials | - | - | 📊 |
-| 04 | **[api-elt](https://github.com/MiguelElGallo/api-elt)** | 9 | ELT pipeline connecting APIs to databases | `dlt` `python-dotenv` | - | 📊 |
-| 05 | **[azquack](https://github.com/MiguelElGallo/azquack)** | 6 | DuckDB Quack protocol on Azure | `duckdb` | Blob Storage, Container Apps | 📊 |
-| 06 | **[snowflake-semantic-view-skill](https://github.com/MiguelElGallo/snowflake-semantic-view-skill)** | 6 | Snowflake semantic view creation skill | - | - | 📊 🤖 |
-| 07 | **[FastAPI-in-Snowflake](https://github.com/MiguelElGallo/FastAPI-in-Snowflake)** | 4 | FastAPI in Snowflake container services | `fastapi` `passlib` `python-jose` `snowflake-connector-python` `uvicorn` | - | 📊 |
+| 🥈 | **[iparq](https://github.com/MiguelElGallo/iparq)** | 25 | Parquet metadata inspection CLI | `pyarrow` `pydantic` `rich` `typer` | - | 📊 |
+| 🥉 | **[modelando](https://github.com/MiguelElGallo/modelando)** | 11 | Bilingual data modeling materials | - | - | 📊 |
+| 04 | **[api-elt](https://github.com/MiguelElGallo/api-elt)** | 9 | ELT pipeline for APIs | `dlt` `python-dotenv` | - | 📊 |
+| 05 | **[azquack](https://github.com/MiguelElGallo/azquack)** | 6 | DuckDB Quack protocol Azure | `duckdb` | Blob Storage, Container Apps | 📊 |
+| 06 | **[snowflake-semantic-view-skill](https://github.com/MiguelElGallo/snowflake-semantic-view-skill)** | 6 | Snowflake semantic view skill | - | - | 📊 🤖 |
+| 07 | **[FastAPI-in-Snowflake](https://github.com/MiguelElGallo/FastAPI-in-Snowflake)** | 4 | FastAPI in Snowflake containers | `fastapi` `passlib` `python-jose` `snowflake-connector-python` `uvicorn` | - | 📊 |
 | 08 | **[SynapseApacheIceBergExperiment](https://github.com/MiguelElGallo/SynapseApacheIceBergExperiment)** | 4 | Apache Iceberg on Synapse Spark | - | Synapse Analytics | 📊 |
 | 09 | **[evsnow](https://github.com/MiguelElGallo/evsnow)** | 3 | Event Hubs to Snowflake streaming | `azure-eventhub` `azure-identity` `pydantic-ai` `snowflake-connector-python` | Event Hubs | 📊 🤖 |
 | 10 | **[simple-streamlit-azd](https://github.com/MiguelElGallo/simple-streamlit-azd)** | 3 | Streamlit on Azure App Service | `numpy` `pandas` `streamlit` | App Service | 📊 |
-| 11 | **[sensormatrix](https://github.com/MiguelElGallo/sensormatrix)** | 1 | ESP32 sensor testing and regression | `pydantic` `pyserial` `pyyaml` `typer` | - | 📊 |
-| 12 | **[snapshottest](https://github.com/MiguelElGallo/snapshottest)** | 1 | Inline snapshot testing demonstration | `httpx` `inline-snapshot` `rich` `typer` | - | - |
-| 13 | **[ragsql](https://github.com/MiguelElGallo/ragsql)** | 1 | RAG-powered SQL query generation | `langchain` `openai` `snowflake-connector-python` | - | 📊 🤖 |
-| 14 | **[HelloJev](https://github.com/MiguelElGallo/HelloJev)** | - | Pipeline failure recommendations with TypeSafe JEV | - | - | 📊 🤖 |
-| 15 | **[RioArriba](https://github.com/MiguelElGallo/RioArriba)** | - | River shooter arcade game | - | - | - |
-| 16 | **[st](https://github.com/MiguelElGallo/st)** | - | Token saver for exploring repositories | - | - | - |
-| 17 | **[md-to-pdf](https://github.com/MiguelElGallo/md-to-pdf)** | - | Markdown to PDF with Mermaid support | - | - | - |
-| 18 | **[agent-plugin-forge](https://github.com/MiguelElGallo/agent-plugin-forge)** | - | Agent Skills to validated Plugins | `jsonschema` `license-expression` `pydantic` `pyyaml` `semantic-version` | - | 🤖 |
-| 19 | **[docdr](https://github.com/MiguelElGallo/docdr)** | - | Documentation doctor agent skill | - | - | 🤖 |
-| 20 | **[bricksgdpr](https://github.com/MiguelElGallo/bricksgdpr)** | - | Databricks dbt GDPR demonstration | `dbt-core` `dbt-databricks` | - | 📊 |
-| 21 | **[homebrew-iparq](https://github.com/MiguelElGallo/homebrew-iparq)** | - | Homebrew tap for iparq CLI | - | - | - |
-| 22 | **[dbtobsb](https://github.com/MiguelElGallo/dbtobsb)** | - | dbt Core observability for Databricks | - | - | 📊 |
-| 23 | **[skill-metric-view-dbr](https://github.com/MiguelElGallo/skill-metric-view-dbr)** | - | Databricks metric view creation skill | - | - | 📊 🤖 |
-| 24 | **[Modelando2025](https://github.com/MiguelElGallo/Modelando2025)** | - | Data modeling concepts 2025 edition | `mkdocs-material` `mkdocs-git-committers-plugin` `mkdocs-i18n` | - | 📊 |
-| 25 | **[api-test-pilot](https://github.com/MiguelElGallo/api-test-pilot)** | - | Contract-driven API test generation | `httpx` `jsonschema` `pydantic` `pyyaml` `typer` | - | 🤖 |
-| 26 | **[azure-ducklake-quack](https://github.com/MiguelElGallo/azure-ducklake-quack)** | - | Azure-native DuckLake with Entra routing | - | Container Apps, PostgreSQL | 📊 |
-| 27 | **[evbricks](https://github.com/MiguelElGallo/evbricks)** | - | Event Hubs to Databricks streaming | `aiohttp` `azure-eventhub` `azure-identity` `databricks-zerobus-ingest-sdk` | Event Hubs | 📊 |
-| 28 | **[bricks-cli](https://github.com/MiguelElGallo/bricks-cli)** | - | dbt on Databricks with CLI | - | - | 📊 |
+| 11 | **[sensormatrix](https://github.com/MiguelElGallo/sensormatrix)** | 1 | ESP32 sensor testing framework | `pydantic` `pyserial` `pyyaml` `typer` | - | 📊 |
+| 12 | **[snapshottest](https://github.com/MiguelElGallo/snapshottest)** | 1 | Inline snapshot testing demo | `httpx` `inline-snapshot` `rich` `typer` | - | - |
+| 13 | **[ragsql](https://github.com/MiguelElGallo/ragsql)** | 1 | RAG-powered SQL queries | `langchain` `openai` `snowflake-connector-python` | - | 📊 🤖 |
+| 14 | **[md-to-pdf](https://github.com/MiguelElGallo/md-to-pdf)** | - | Markdown to PDF converter | - | - | - |
+| 15 | **[agent-plugin-forge](https://github.com/MiguelElGallo/agent-plugin-forge)** | - | Agent Skills to Plugins | `jsonschema` `license-expression` `pydantic` `pyyaml` `semantic-version` | - | 🤖 |
+| 16 | **[HelloJev](https://github.com/MiguelElGallo/HelloJev)** | - | Pipeline failure decisions AI | - | - | 📊 🤖 |
+| 17 | **[RioArriba](https://github.com/MiguelElGallo/RioArriba)** | - | River shooter arcade game | - | - | - |
+| 18 | **[st](https://github.com/MiguelElGallo/st)** | - | Token saver for repositories | - | - | - |
+| 19 | **[docdr](https://github.com/MiguelElGallo/docdr)** | - | Documentation doctor skill | - | - | 🤖 |
+| 20 | **[bricksgdpr](https://github.com/MiguelElGallo/bricksgdpr)** | - | Databricks dbt GDPR demo | `dbt-core` `dbt-databricks` | - | 📊 |
+| 21 | **[homebrew-iparq](https://github.com/MiguelElGallo/homebrew-iparq)** | - | Homebrew iparq tap | - | - | - |
+| 22 | **[dbtobsb](https://github.com/MiguelElGallo/dbtobsb)** | - | dbt Core Databricks observability | - | - | 📊 |
+| 23 | **[skill-metric-view-dbr](https://github.com/MiguelElGallo/skill-metric-view-dbr)** | - | Databricks metric view skill | - | - | 📊 🤖 |
+| 24 | **[Modelando2025](https://github.com/MiguelElGallo/Modelando2025)** | - | Data modeling 2025 materials | `mkdocs-material` `mkdocs-git-committers-plugin` `mkdocs-i18n` | - | 📊 |
+| 25 | **[api-test-pilot](https://github.com/MiguelElGallo/api-test-pilot)** | - | Contract-driven API testing | `httpx` `jsonschema` `pydantic` `pyyaml` `typer` | - | 🤖 |
+| 26 | **[azure-ducklake-quack](https://github.com/MiguelElGallo/azure-ducklake-quack)** | - | Azure DuckLake Entra routing | - | Container Apps, PostgreSQL | 📊 |
+| 27 | **[evbricks](https://github.com/MiguelElGallo/evbricks)** | - | Event Hubs Databricks streaming | `aiohttp` `azure-eventhub` `azure-identity` `databricks-zerobus-ingest-sdk` | Event Hubs | 📊 |
+| 28 | **[bricks-cli](https://github.com/MiguelElGallo/bricks-cli)** | - | dbt on Databricks CLI | - | - | 📊 |
 | 29 | **[codemode](https://github.com/MiguelElGallo/codemode)** | - | Code Mode vs MCP comparison | `mcp` `pydantic` | - | 🤖 |
-| 30 | **[neoquack](https://github.com/MiguelElGallo/neoquack)** | - | DuckDB Quack on free tiers | `duckdb` `fastapi` `httpx` `psycopg` | - | 📊 |
-| 31 | **[SnowflakeCortexCLI](https://github.com/MiguelElGallo/SnowflakeCortexCLI)** | - | Single-role Snowflake Cortex CLI setup | - | - | 📊 🤖 |
-| 32 | **[snowdag](https://github.com/MiguelElGallo/snowdag)** | - | Airflow dbt in Snowflake containers | - | - | 📊 |
+| 30 | **[neoquack](https://github.com/MiguelElGallo/neoquack)** | - | DuckDB Quack free tiers | `duckdb` `fastapi` `httpx` `psycopg` | - | 📊 |
+| 31 | **[SnowflakeCortexCLI](https://github.com/MiguelElGallo/SnowflakeCortexCLI)** | - | Snowflake Cortex CLI security | - | - | 📊 🤖 |
+| 32 | **[snowdag](https://github.com/MiguelElGallo/snowdag)** | - | Airflow dbt Snowflake containers | - | - | 📊 |
 | 33 | **[fastapi-free](https://github.com/MiguelElGallo/fastapi-free)** | - | FastAPI free-threading benchmark | `fastapi` `prometheus-client` `uvicorn` | - | - |
-| 34 | **[ir-support-site](https://github.com/MiguelElGallo/ir-support-site)** | - | iOS app support site | - | - | - |
-| 35 | **[snow_iceberg_snowstorage](https://github.com/MiguelElGallo/snow_iceberg_snowstorage)** | - | Snowflake Iceberg with DuckDB demo | - | - | 📊 |
-| 36 | **[snowmcpaz](https://github.com/MiguelElGallo/snowmcpaz)** | - | Snowflake MCP with Azure auth | - | - | 📊 🤖 |
-| 37 | **[jwtaztoken](https://github.com/MiguelElGallo/jwtaztoken)** | - | Azure JWT token inspector CLI | `cryptography` `httpx` `pyjwt` `rich` `typer` | - | - |
-| 38 | **[dlthubarrow](https://github.com/MiguelElGallo/dlthubarrow)** | - | dlt Arrow mode on Azure | `azure-monitor-opentelemetry` `dlt` `psutil` `pyarrow` `snowflake-connector-python` | Container Apps, Key Vault | 📊 |
-| 39 | **[snowdcm](https://github.com/MiguelElGallo/snowdcm)** | - | Snowflake DCM objects demonstration | - | - | 📊 |
-| 40 | **[dlthubsnow](https://github.com/MiguelElGallo/dlthubsnow)** | - | dlt in Snowflake containers | `dlt` `requests` | - | 📊 |
-| 41 | **[Arrow_as_source](https://github.com/MiguelElGallo/Arrow_as_source)** | - | Arrow as universal dataset | `arrow` `duckdb` `polars` `pyarrow` | - | 📊 |
-| 42 | **[ghs](https://github.com/MiguelElGallo/ghs)** | - | Sync env files with GitHub | `pydantic` `python-dotenv` `typer` | - | - |
-| 43 | **[myfirstmcp-openai](https://github.com/MiguelElGallo/myfirstmcp-openai)** | - | FastMCP on Azure App Service | `gunicorn` `mcp` `uvicorn` | App Service | 🤖 |
-| 44 | **[CallAPIfromLLM](https://github.com/MiguelElGallo/CallAPIfromLLM)** | - | LLM API calling demonstration | - | - | 🤖 |
-| 45 | **[snowtofu](https://github.com/MiguelElGallo/snowtofu)** | - | Snowflake with OpenTofu IaC | - | Storage Account | 📊 |
-| 46 | **[simple-fastapi-snow-azd](https://github.com/MiguelElGallo/simple-fastapi-snow-azd)** | - | FastAPI Snowflake on Azure Functions | `fastapi` `snowflake-sqlalchemy` | Functions | 📊 |
-| 47 | **[embeddindataengineering](https://github.com/MiguelElGallo/embeddindataengineering)** | - | OpenAI embeddings in Fabric | - | - | 📊 🤖 |
+| 34 | **[ir-support-site](https://github.com/MiguelElGallo/ir-support-site)** | - | iOS app support pages | - | - | - |
+| 35 | **[snow_iceberg_snowstorage](https://github.com/MiguelElGallo/snow_iceberg_snowstorage)** | - | Snowflake Iceberg DuckDB | - | - | 📊 |
+| 36 | **[snowmcpaz](https://github.com/MiguelElGallo/snowmcpaz)** | - | Snowflake MCP Azure auth | - | - | 📊 🤖 |
+| 37 | **[jwtaztoken](https://github.com/MiguelElGallo/jwtaztoken)** | - | Azure JWT token inspector | `cryptography` `httpx` `pyjwt` `rich` `typer` | - | - |
+| 38 | **[dlthubarrow](https://github.com/MiguelElGallo/dlthubarrow)** | - | dlt Arrow on Azure | `azure-monitor-opentelemetry` `dlt` `psutil` `pyarrow` `snowflake-connector-python` | Container Apps, Key Vault | 📊 |
+| 39 | **[snowdcm](https://github.com/MiguelElGallo/snowdcm)** | - | Snowflake DCM objects | - | - | 📊 |
+| 40 | **[dlthubsnow](https://github.com/MiguelElGallo/dlthubsnow)** | - | dlt in Snowflake | `dlt` `requests` | - | 📊 |
+| 41 | **[Arrow_as_source](https://github.com/MiguelElGallo/Arrow_as_source)** | - | Arrow universal dataset | `arrow` `duckdb` `polars` `pyarrow` | - | 📊 |
+| 42 | **[ghs](https://github.com/MiguelElGallo/ghs)** | - | Sync env with GitHub | `pydantic` `python-dotenv` `typer` | - | - |
+| 43 | **[myfirstmcp-openai](https://github.com/MiguelElGallo/myfirstmcp-openai)** | - | FastMCP Azure App Service | `gunicorn` `mcp` `uvicorn` | App Service | 🤖 |
+| 44 | **[CallAPIfromLLM](https://github.com/MiguelElGallo/CallAPIfromLLM)** | - | LLM API calling demo | - | - | 🤖 |
+| 45 | **[snowtofu](https://github.com/MiguelElGallo/snowtofu)** | - | Snowflake OpenTofu IaC | - | Storage Account | 📊 |
+| 46 | **[simple-fastapi-snow-azd](https://github.com/MiguelElGallo/simple-fastapi-snow-azd)** | - | FastAPI Snowflake Functions | `fastapi` `snowflake-sqlalchemy` | Functions | 📊 |
+| 47 | **[embeddindataengineering](https://github.com/MiguelElGallo/embeddindataengineering)** | - | OpenAI embeddings Fabric | - | - | 📊 🤖 |
 | 48 | **[mycv](https://github.com/MiguelElGallo/mycv)** | - | Personal CV repository | - | - | - |
 | 49 | **[dltHub-teesting](https://github.com/MiguelElGallo/dltHub-teesting)** | - | dltHub pytest testing | `dlt` `duckdb` `mypy` `pytest` | - | 📊 |
-| 50 | **[ChartToMD](https://github.com/MiguelElGallo/ChartToMD)** | - | Chart to markdown for RAG | `aiohttp` `azure-identity` `pydantic` `typer` | - | 🤖 |
-| 51 | **[SnowCLI](https://github.com/MiguelElGallo/SnowCLI)** | - | Snowflake CLI with GitHub Actions | - | - | 📊 |
-| 52 | **[rag-graph](https://github.com/MiguelElGallo/rag-graph)** | - | Graph approaches for RAG testing | - | - | 🤖 |
-| 53 | **[opeanai-rag-test](https://github.com/MiguelElGallo/opeanai-rag-test)** | - | OpenAI RAG Spanish document testing | `openai` `python-dotenv` | - | 🤖 |
-| 54 | **[ragvectordb](https://github.com/MiguelElGallo/ragvectordb)** | - | Embeddings in multiple vector databases | - | AI Search | 📊 🤖 |
-| 55 | **[azdcodespaces](https://github.com/MiguelElGallo/azdcodespaces)** | - | AZD in Codespaces configuration | - | - | - |
-| 56 | **[azureaisearch](https://github.com/MiguelElGallo/azureaisearch)** | - | Azure AI Search embeddings demo | - | AI Search | 🤖 |
-| 57 | **[azopenai_adx](https://github.com/MiguelElGallo/azopenai_adx)** | - | Azure Data Explorer embeddings storage | - | Data Explorer | 📊 🤖 |
-| 58 | **[semker](https://github.com/MiguelElGallo/semker)** | - | Semantic Kernel Python examples | `semantic-kernel` | - | 🤖 |
-| 59 | **[dvsat](https://github.com/MiguelElGallo/dvsat)** | - | Data Vault extended satellite demo | - | - | 📊 |
+| 50 | **[ChartToMD](https://github.com/MiguelElGallo/ChartToMD)** | - | Chart to markdown RAG | `aiohttp` `azure-identity` `pydantic` `typer` | - | 🤖 |
+| 51 | **[SnowCLI](https://github.com/MiguelElGallo/SnowCLI)** | - | Snowflake CLI GitHub Actions | - | - | 📊 |
+| 52 | **[rag-graph](https://github.com/MiguelElGallo/rag-graph)** | - | Graph RAG approaches | - | - | 🤖 |
+| 53 | **[opeanai-rag-test](https://github.com/MiguelElGallo/opeanai-rag-test)** | - | OpenAI RAG Spanish | `openai` `python-dotenv` | - | 🤖 |
+| 54 | **[ragvectordb](https://github.com/MiguelElGallo/ragvectordb)** | - | Multiple vector databases | - | AI Search | 📊 🤖 |
+| 55 | **[azdcodespaces](https://github.com/MiguelElGallo/azdcodespaces)** | - | AZD in Codespaces | - | - | - |
+| 56 | **[azureaisearch](https://github.com/MiguelElGallo/azureaisearch)** | - | Azure AI Search embeddings | - | AI Search | 🤖 |
+| 57 | **[azopenai_adx](https://github.com/MiguelElGallo/azopenai_adx)** | - | Data Explorer embeddings | - | Data Explorer | 📊 🤖 |
+| 58 | **[semker](https://github.com/MiguelElGallo/semker)** | - | Semantic Kernel examples | `semantic-kernel` | - | 🤖 |
+| 59 | **[dvsat](https://github.com/MiguelElGallo/dvsat)** | - | Data Vault satellite demo | - | - | 📊 |
 | 60 | **[JoinOrAssociation](https://github.com/MiguelElGallo/JoinOrAssociation)** | - | BI tool fan trap handling | - | - | 📊 |
 
-_💾 Last saved: 2026-09-20_
+_💾 Last saved: 2026-09-27_
